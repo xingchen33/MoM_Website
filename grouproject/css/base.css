@@ -1,0 +1,124 @@
+/* IMPORTANT
+Typology: 
+For headings and buttons: font-family: 'Poppins', sans-serif;
+For paragraphs and internal links:  font-family: 'Inter', sans-serif; 
+
+Add these into you header for each webpage.  This is for the fonts to work:
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+*/
+
+
+:root {
+  --scu-red: #A32035;
+  --text-dark: #2c3e50;
+  --bg-light: #f8f9fa;
+}
+
+body{
+    margin-left:0;
+    margin-right:0;
+}
+
+header{
+    display:flex;
+    height:8rem;
+    margin-top:2rem;
+    margin-left:8rem;
+
+}
+
+#title{
+    display:flex;
+    align-items:center;
+    margin-left:3rem;
+    font-size:4rem;
+    
+}
+
+nav{
+    background-color:grey;
+    display:flex;
+    width:auto;
+    margin-top:2rem;
+}
+
+#topnav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row;
+    width: 100%;
+    width: 100%;
+    list-style-type:none;
+    padding-right:3rem;
+}
+
+#topnav li{
+    gap:3rem;
+    color:white;
+}
+
+#topnav li a{
+    color:white;
+    text-decoration:none;
+
+}
+
+#topnav li a:hover{
+    color:blue;
+
+}
+
+
+.section{
+    padding-left:8rem;
+    padding-right:8rem;
+    padding-top:2rem; 
+    padding-bottom:2rem;
+    margin-top:2rem;
+}
+
+.split3 .containerOuter{ /*this is for the 3-box stcture that is planned to be used in meet the dev page.*/
+
+    display:flex;
+    gap:4rem;
+    justify-content:center;
+
+}
+
+.split3 .container{
+
+    width:30%;
+    list-style-type:none;
+    text-align: center;
+}
+
+h1,h2,h3{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+    font-size:4rem;
+    margin-bottom:1rem;
+}
+
+h2{
+
+    font-size:2.5rem;
+    display:flex;
+    height:fit-content;
+    width:100%;
+}
+
+p,li{
+
+    font-family: 'Inter', sans-serif; /*p*/
+    font-size:1.2rem;
+
+}
