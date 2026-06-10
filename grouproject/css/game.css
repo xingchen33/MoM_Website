@@ -1,0 +1,163 @@
+.active {
+	background-color: #75202b;
+}
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #A32035;
+	overflow: hidden;
+	top: 0;
+}
+
+.navLi {
+	float: right;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.navLi:hover {
+	background-color: #862633;
+	/*#b33243;*/
+}
+
+.navA {
+	display: block;
+}
+.navA {
+	color: white;
+	text-decoration: none;
+}
+
+#instructionDiv {
+	text-align: center;
+}
+
+h2 {
+	color: gray;
+}
+
+#instructionText {
+	color: gray;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #b33243; /* color matches your nav */
+    width: 50%;        /* how wide the line is (% or px) */
+    margin: 10px auto; /* centers it and adds spacing above/below */
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+#gameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* vertically centers buttons with the article */
+    justify-content: center; /* centers the whole group on the page */
+    gap: 20px;              /* space between buttons and article */
+    margin: 20px auto;
+}
+
+#buttonDiv {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 50%;
+}
+
+#realButton, #fakeButton {
+    padding: 35px;
+    width: 45%;
+    font-size: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#article {
+	background-color: #EFF5F5;
+	padding: 60px;
+	border-radius: 20px;
+	transition: transform 0.3s ease-in-out;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	max-width: 50%;
+	border: 1px solid gray;
+	margin: 0 auto;
+	flex-shrink: 0;
+	transition: background-color 0.5s ease-in-out;
+}
+
+/* Animations*/
+@keyframes shake {
+    0%   { transform: translateX(0); }
+    15%  { transform: translateX(-10px); }
+    30%  { transform: translateX(10px); }
+    45%  { transform: translateX(-10px); }
+    60%  { transform: translateX(10px); }
+    75%  { transform: translateX(-10px); }
+    100% { transform: translateX(0); background-color: #ffcccc; }
+}
+
+@keyframes pulse {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+#article.wrong {
+    animation: shake 0.6s ease-in-out;
+    background-color: #ffcccc;
+}
+
+#article.correct {
+    animation: pulse 0.6s ease-in-out;
+    background-color: #ccffcc;
+}
+
+#resultText {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#resultText.correct {
+    color: #2e7d32;
+}
+
+#resultText.wrong {
+    color: #A32035;
+}
+
+
+
+
+
+
+
+#realButton {
+	background-color: #67EB8B;
+	border: 1px solid #429659;
+	color: #429659;
+}
+
+#fakeButton {
+	background-color: #EB6767;
+	border: 1px solid #a34848;
+	color: #a34848;
+
+}
+
+footer {
+	background-color: #A32035;
+	padding: 3px;
+	color: white;
+	text-align: center;
+}
