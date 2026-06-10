@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Real or Fake?</title>
+		<link rel="stylesheet" href="css/game.css"/>
+	</head>
+
+	<body>
+		<header>
+			<h1>Mitigation of Misinformation</h1>
+			<ul id="nav">
+				<li class="navLi"><a class="navA" href="meet.html">Meet the Developers</a></li>
+				<li class="navLi"><a class="navA" href="contact.html">Contact</a></li>
+				<li class="navLi active"><a class="navA" href="game.html">Game</a></li>
+				<li class="navLi"><a class="navA" href="home.html">Home</a></li>
+			</ul>
+			<div id="instructionDiv">
+				<h1>Real or Fake?</h1>
+				<hr/>
+				<h2>Instructions</h2>
+				<p id="instructionText">Read the article below! Decide if you think it is real or fake and choose accordingly.</p>
+			</div>
+			<p id="resultText"></p>
+
+		</header>
+
+		<div id="gameDiv">
+			
+			<div id="article">
+				<h3 id="articleTitle">Article_Title</h3>
+				<p id="articleDate">Date</p>
+				<div id="articleContent">
+					<p>Article</p>
+				</div>
+
+			</div>
+			<div id="buttonDiv">
+				<button id="realButton">REAL</button>
+				<button id="fakeButton">FAKE</button>
+			</div>
+		</div>
+
+
+		<footer>
+			<p>MoM &copy; Copyright 2026</p>
+			<script>
+			    document.getElementById('realButton').addEventListener('click', function() {
+			        checkAnswer(true);
+			    });
+
+			    document.getElementById('fakeButton').addEventListener('click', function() {
+			        checkAnswer(false);
+			    });
+
+			    function checkAnswer(userGuess) {
+			    	const article = document.getElementById('article');
+			    	const resultText = document.getElementById('resultText');
+
+
+			    	// Disable buttons so they can't click again
+			        document.getElementById('realButton').disabled = true;
+			        document.getElementById('fakeButton').disabled = true;
+
+			        if (userGuess === isReal) {
+			            article.classList.add('correct');
+			            resultText.classList.add('correct');
+			            resultText.innerText = "Correct! The article was " + (isReal ? "real." : "fake.");
+			        } else {
+			            article.classList.add('wrong');
+			            resultText.classList.add('wrong');
+			            resultText.innerText = "Wrong! The article was actually " + (isReal ? "real." : "fake.");
+			        }
+
+			        setTimeout(function() {
+			            resultText.style.display = 'block';
+			        }, 600);
+			    }
+			</script>
+		</footer>
+	</body>
+
+
+
+
+</html>
