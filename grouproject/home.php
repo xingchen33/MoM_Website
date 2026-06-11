@@ -82,11 +82,11 @@
                         <a class="external" href="#">Check out the project's main site</a>
                         <div class="line">
                             <p>Learn who made this website</p>
-                            <a class="internal" href="#">learn more</a>
+                            <a class="internal" href="team.php">learn more</a>
                         </div>
                         <div class="line">
                             <p>Contact us via email</p>
-                            <a class="internal" href="#">learn more</a>
+                            <a class="internal" href="contanct.php">learn more</a>
                         </div>
                     </div>
                 
@@ -99,7 +99,7 @@
                         <div class="right">
                             <p id="gameTitle">Fake/Real Article Minigame
                             <p>Play this minigame to test your awareness!</p>
-                            <a class="internal" href="#">Play Mini Game</a>
+                            <a class="internal" href="game.php">Play Mini Game</a>
                         </div>
 
                     </div>
