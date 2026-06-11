@@ -37,13 +37,14 @@
 
                     <div class="left">
                         <img src="img/home_why.png"/>
-                        <a class="external" href="#">Learn More</a>
+                        <a class="external" href="external/poster.pdf">Read Research Poster</a>
                     </div>
                     <aside class="right">
                         <ul>
-                            <li>Sed efficitur nulla nec auctor dapibus.</li>
-                            <li>Sed efficitur nulla nec auctor dapibus.</li>
-                            <li>Sed efficitur nulla nec auctor dapibus.</li>
+                            <li><img class="why_svg" src="img/home_svg.png">Sed efficitur nulla nec auctor dapibus.</li>
+                            <li><img class="why_svg" src="img/home_svg.png">Sed efficitur nulla nec auctor dapibus.</li>
+                            <li><img class="why_svg" src="img/home_svg.png">Sed efficitur nulla nec auctor dapibus.</li>
+                            <li id="poster"> <- Click the link to learn more from the research poster!</li>
 
                         </ul>
 
@@ -69,6 +70,8 @@
                     </li>
                 </ul>
 
+                <a id="pipeline" class="external" href="external/pipeline.png">See Pipeline to Learn More!</a>
+
             </div>
 
             <div class='section' id="you">
@@ -88,9 +91,16 @@
                     </div>
                 
                     <aside id="game" class="right">
-                        <img src="img/home_game.png"/>
-                        <p>Test your awareness</p>
-                        <a class="internal" href="#">Play Mini Game</a>
+                        
+                        <aside class="left">
+                            <img src="img/home_game.png"/>
+                        </aside>
+                        
+                        <div class="right">
+                            <p id="gameTitle">Fake/Real Article Minigame
+                            <p>Play this minigame to test your awareness!</p>
+                            <a class="internal" href="#">Play Mini Game</a>
+                        </div>
 
                     </div>
 
