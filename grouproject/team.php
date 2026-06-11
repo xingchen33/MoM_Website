@@ -107,6 +107,16 @@
 			.socialLinks a {
 				text-decoration: none;
 			}
+
+			.desc {
+				color: grey;
+			}
+
+			.webdesc {
+				color: grey;
+			}
+
+
 		</style>
 	</head>
 
@@ -117,8 +127,8 @@
 		<div id="teamCover">
 			<h1>Meet the Team</h1>
 			<p>
-				Learn more about the faculty advisor, research team, and website developers
-				who helped create this project.
+				See who the faculty advisor, research team, and website developers
+				who helped bring this project to life.
 			</p>
 		</div>
 
@@ -129,7 +139,7 @@
 
 				<ul class="teamList">
 					<li>
-						<a href="mailto:nshaghaghi@scu.edu" target="_blank">Navid Shaghaghi</a>
+						<a href="mailto:nshaghaghi@scu.edu" target="_blank">Navid Shaghaghi<span class="desc">  -  nshaghaghi.scu.edu</span></a>
 					</li>
 					<!-- https://www.linkedin.com/in/nshaghaghi/ -->
 				</ul>
@@ -139,10 +149,10 @@
 				<h2>Research Team</h2>
 
 				<ul class="teamList">
-					<li><a href="">Heather Lyons</a></li>
-					<li><a href="">Edgar Garcia</a></li>
-					<li><a href="">Isabel Zuluaga Gonzalez</a></li>
-					<li><a href="">Samantha Lee</a></li>
+					<li><a href="mailto:hlyons@scu.edu">Heather Lyons<span class="desc">  -  hlyons@scu.edu</span></a></li>
+					<li><a href="mailto:edgar.garcia@upb.edu.co">Edgar Garcia<span class="desc">  -  edgar.garcia@upb.edu.co</span></a></li>
+					<li><a href="mailto:isabel.zuluagagonzalez@alumni.scu.edu">Isabel Zuluaga Gonzalez<span class="desc"> - isabel.zuluagagonzalez@alumni.scu.edu</span></a></li>
+					<li><a href="mailto:slee7@scu.edu">Samantha Lee<span class="desc">  -  slee7@scu.edu</span></a></li>
 				</ul>
 			</section>
 
@@ -153,6 +163,8 @@
 
 					<div class="container">
 						<h3>Yue Yu</h3>
+						<hr/>
+						<h4 class="webdesc">yyu7@scu.edu</h4>
 
 						<div class="socialLinks">
 							<a href="https://www.linkedin.com/in/yyu05/" target="_blank">
@@ -171,6 +183,8 @@
 
 					<div class="container">
 						<h3>Cuitlahuac Ramirez</h3>
+						<hr/>
+						<h4 class="webdesc">cramirezborrego@scu.edu</h4>
 
 						<div class="socialLinks">
 							<a href="https://www.linkedin.com/in/cuit/" target="_blank">
@@ -189,6 +203,8 @@
 
 					<div class="container">
 						<h3>Emmet Whitehead</h3>
+						<hr/>
+						<h4 class="webdesc">ewhitehead@scu.edu</h4>
 
 						<div class="socialLinks">
 							<a href="https://www.linkedin.com/in/emmet-whitehead-b1182a183/" target="_blank">
