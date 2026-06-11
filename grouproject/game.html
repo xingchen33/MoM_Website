@@ -25,7 +25,10 @@
 		</header>
 
 		<div id="gameDiv">
-			
+			<div id="scoreDiv">
+				<p id="scoreText"></p>
+    			<p id="timerText">Time Left:</p>
+    		</div>
 			<div id="article">
 				<h3 id="articleTitle">Article_Title</h3>
 				<p id="articleDate">Date</p>
@@ -37,49 +40,13 @@
 			<div id="buttonDiv">
 				<button id="realButton">REAL</button>
 				<button id="fakeButton">FAKE</button>
+				<input type="hidden" id="answerInput" name="answer" value="">
+				<button id="nextButton">NEXT</button>
+				
 			</div>
 		</div>
-
-
 		<footer>
 			<p>MoM &copy; Copyright 2026</p>
-			<script>
-			    document.getElementById('realButton').addEventListener('click', function() {
-			        checkAnswer(true);
-			    });
-
-			    document.getElementById('fakeButton').addEventListener('click', function() {
-			        checkAnswer(false);
-			    });
-
-			    function checkAnswer(userGuess) {
-			    	const article = document.getElementById('article');
-			    	const resultText = document.getElementById('resultText');
-
-
-			    	// Disable buttons so they can't click again
-			        document.getElementById('realButton').disabled = true;
-			        document.getElementById('fakeButton').disabled = true;
-
-			        if (userGuess === isReal) {
-			            article.classList.add('correct');
-			            resultText.classList.add('correct');
-			            resultText.innerText = "Correct! The article was " + (isReal ? "real." : "fake.");
-			        } else {
-			            article.classList.add('wrong');
-			            resultText.classList.add('wrong');
-			            resultText.innerText = "Wrong! The article was actually " + (isReal ? "real." : "fake.");
-			        }
-
-			        setTimeout(function() {
-			            resultText.style.display = 'block';
-			        }, 600);
-			    }
-			</script>
 		</footer>
 	</body>
-
-
-
-
 </html>
