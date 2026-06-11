@@ -127,8 +127,8 @@
 		<div id="teamCover">
 			<h1>Meet the Team</h1>
 			<p>
-				Learn more about the faculty advisor, research team, and website developers
-				who helped create this project.
+				See who the faculty advisor, research team, and website developers
+				who helped bring this project to life.
 			</p>
 		</div>
 
