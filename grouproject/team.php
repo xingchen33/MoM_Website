@@ -195,7 +195,7 @@
 								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
 							</a>
 
-							<a href="">
+							<a href="https://github.com/ewhitehead1">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
 
