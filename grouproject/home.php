@@ -15,7 +15,7 @@
             <div id="cover">
                 <div class="left">
                     <h1>Welcome to the Mitigation of Misinformation Project!</h1>
-                    <p>What would MoM do?
+                    <p>Asking the question... what would MoM do?
                     </p>
                 </div>
                 <aside class="right">
@@ -34,14 +34,14 @@
 
                     <div class="left">
                         <img src="img/home_why.png"/>
-                        <a class="external" href="external/poster.pdf">View Research Poster</a>
+                        <a class="external" href="external/poster.pdf", target="_blank">View the Research Poster</a>
                     </div>
                     <aside class="right">
                         <ul>
                             <li><img class="why_svg" src="img/home_svg.png">The spread of misinformation is running rampant on social media</li>
                             <li><img class="why_svg" src="img/home_svg.png">It's becoming increasingly difficult to discern what is fake and not</li>
                             <li><img class="why_svg" src="img/home_svg.png">There has to be a better way to figure out what is misinformation and what is not!</li>
-                            <li id="poster"> <- Click the link to learn more from the research poster!</li>
+                            <!-- <li id="poster"> <- Click the link to learn more from the research poster!</li> -->
 
                         </ul>
 
@@ -76,14 +76,14 @@
                 <div class = content>
 
                     <div class="left">
-                        <a class="external" href="#">Check out the project's main site</a>
+                        <!-- <a class="external" href="#">Check out the project's main site</a> -->
                         <div class="line">
-                            <p>Learn who made this website</p>
-                            <a class="internal" href="team.php">learn more</a>
+                            <p>Read our publication!</p>
+                            <a class="internal" href="https://link.springer.com/chapter/10.1007/978-3-031-33614-0_13", target="_blank">Learn more</a>
                         </div>
                         <div class="line">
-                            <p>Contact us via email</p>
-                            <a class="internal" href="contanct.php">learn more</a>
+                            <p>Meet the team!</p>
+                            <a class="internal" href="team.php">Learn more</a>
                         </div>
                     </div>
                 
@@ -94,9 +94,9 @@
                         </aside>
                         
                         <div class="right">
-                            <p id="gameTitle">Fake/Real Article Minigame
-                            <p>Play this minigame to test your awareness!</p>
-                            <a class="internal" href="game.php">Play Mini Game</a>
+                            <p id="gameTitle">Misinformation Article Minigame
+                            <p>Play this minigame to test your classification skills!</p>
+                            <a class="internal" href="game.php">Play Mini-game</a>
                         </div>
 
                     </div>
