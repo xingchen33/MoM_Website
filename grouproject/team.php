@@ -150,9 +150,21 @@
 
 				<ul class="teamList">
 					<li><a href="mailto:hlyons@scu.edu">Heather Lyons<span class="desc">  -  hlyons@scu.edu</span></a></li>
+
 					<li><a href="mailto:edgar.garcia@upb.edu.co">Edgar Garcia<span class="desc">  -  edgar.garcia@upb.edu.co</span></a></li>
+
 					<li><a href="mailto:isabel.zuluagagonzalez@alumni.scu.edu">Isabel Zuluaga Gonzalez<span class="desc"> - isabel.zuluagagonzalez@alumni.scu.edu</span></a></li>
+
 					<li><a href="mailto:slee7@scu.edu">Samantha Lee<span class="desc">  -  slee7@scu.edu</span></a></li>
+
+					<li><a href="mailto:kalyaninitin.shinde@alumni.scu.edu">Kalyani Shinde<span class="desc">  -  kalyaninitin.shinde@alumni.scu.edu</span></a></li>	
+
+					<li><a href="mailto:sanchez.jazmin.js@gmail.com">Jazmin Sanchez<span class="desc">  - sanchez.jazmin.js@gmail.com</span></a></li>	
+
+					<li><a href="mailto:roberto.hincapie@upb.edu.co">Roberto Hincapie<span class="desc">  - roberto.hincapie@upb.edu.co</span></a></li>
+
+
+
 				</ul>
 			</section>
 
