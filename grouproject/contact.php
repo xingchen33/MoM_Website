@@ -23,16 +23,16 @@
                 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
                 <div id="short">
-                    <label for ="name">Name </label>
-                    <input type = "text" id ="name" name="name"/>
+                    <label for ="name">Name <span>*</span></label>
+                    <input type = "text" id ="name" name="name" required/>
                     
-                    <label for = "email">Email </label>
-                    <input type = "text" id="email" name="email"/>
+                    <label for = "email">Email <span>*</span></label>
+                    <input type = "text" id="email" name="email" required/>
 
                 </div>
 
-                    <label for = "message">Message </label>
-                    <textarea type = "text" id="message" name="message"> </textarea>
+                    <label for = "message">Message <span>*</span></label>
+                    <textarea type = "text" id="message" name="message" required> </textarea>
 
                 <div id="cap">
 
@@ -75,7 +75,11 @@
 
                 // checks that the catpcha was done
                 if($captchaResponse == ''){
-                    echo "Please complete the captcha!";
+                    echo "<script>
+                            alert('please complete captcha!');
+                            window.location.href = window.location.href;
+                            
+                        </script>";
                     exit;
                 }
 
@@ -136,7 +140,8 @@
                             window.location.href = window.location.href;
                         </script>";
                     } else {
-                        echo "<script>alert('Something went wrong');</script>";
+                        echo "<script>alert('Something went wrong');
+                        window.location.href = window.location.href;</script>";
                     }
 
                     // fwrite($output, $subject);
@@ -157,13 +162,25 @@
                     exit;
 
             }else{
-                echo"Name/email/message connot be left empty!";
+                echo "<script>
+                    alert('captcha failed...');
+                    window.location.href = window.location.href;
+                            
+                </script>";
+            }
+
+            }else{
+                echo "<script>
+                    alert('Required fields cannot be empty!');
+                     window.location.href = 'contact.php';
+                            
+                </script>";
                 exit;
             }
 
 
         }
-        }
+    
 
 
     ?>
