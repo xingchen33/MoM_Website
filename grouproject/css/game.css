@@ -5,6 +5,7 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 0 !important;
+    max-height:fit-content;
 }
 
 h1 {
@@ -20,15 +21,53 @@ h2 {
     color: gray;
 }
 
+#timerText{
+    margin-left:2rem;
+}
+
 #scoreDiv {
+    display:flex;
+    flex-direction:row;
 	
-    text-align: center;
+    justify-content:center;
     width: 100%;
 }
 
+.right{
+    width:60%;
+    width:max-content;
+    flex:1;
+    margin-top:1rem;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+
+
+.left{
+    display:flex;
+    background-color:  #A32035;
+    width:40%;
+    justify-content:center;
+    flex-direction:column;
+    color:white;
+
+}
+
+#content{
+    height:70%;
+}
+
+#article{
+    overflow:hidden;
+}
+
+
 
 #instructionText {
-	color: gray;
+    margin-left:2rem;
+    margin-right:2rem;
 }
 
 hr {
@@ -38,8 +77,10 @@ hr {
     margin: 10px auto; 
 }
 
-body {
-	background-color: #F5F5F5;
+#content{
+    background-color: #F5F5F5;
+    display:flex;
+
 }
 
 #gameDiv {
@@ -47,15 +88,17 @@ body {
     flex-direction: column;
     align-items: center;    
     justify-content: center; 
-    gap: 20px;              
+    gap: 20px;     
+    height:max-content;         
     margin: 20px auto;
 }
 
 #buttonDiv {
     display: flex;
+    margin-top:1rem;
     gap: 40px;
     justify-content: center;
-    width: 50%;
+    align-items:center;
 }
 
 #realButton, #fakeButton {
@@ -80,15 +123,15 @@ body {
 
 #article {
 	background-color: #EFF5F5;
-	padding: 60px;
 	border-radius: 20px;
+    padding:2rem;
 	transition: transform 0.3s ease-in-out;
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-	max-width: 50%;
 	border: 1px solid gray;
-	margin: 0 auto;
+	margin-left:4rem;
+    margin-right:4rem;
 	flex-shrink: 0;
 	transition: background-color 0.5s ease-in-out;
 }
@@ -129,11 +172,12 @@ body {
 }
 
 #resultText.correct {
-    color: #2e7d32;
+    color: #ccffcc;
 }
 
+
 #resultText.wrong {
-    color: #A32035;
+    color:  #ffcccc;
 }
 
 #realButton {
