@@ -47,12 +47,15 @@ h2 {
 
 .left{
     display:flex;
-    background-color:  #A32035;
+    background-image:linear-gradient(to bottom,#A32035, orange);
     width:40%;
     justify-content:center;
     flex-direction:column;
     color:white;
+}
 
+.right {
+    
 }
 
 #content{
@@ -91,6 +94,7 @@ hr {
     gap: 20px;     
     height:max-content;         
     margin: 20px auto;
+    padding: 10px;
 }
 
 #buttonDiv {
@@ -134,6 +138,7 @@ hr {
     margin-right:4rem;
 	flex-shrink: 0;
 	transition: background-color 0.5s ease-in-out;
+    max-height: 350px;
 }
 
 /* Animations*/
