@@ -14,7 +14,7 @@ echo '
                     <li><a href="home.php">Home</a></li>
                     <li><a href="game.php">Game</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="team.php">Meet the Devs</a>    </li>
+                    <li><a href="team.php">Meet the Team</a>    </li>
                 </ul>
 
             </nav>

@@ -142,7 +142,7 @@
 
 				<ul class="teamList">
 					<li>
-						<a href="mailto:nshaghaghi@scu.edu" target="_blank">Navid Shaghaghi<span class="desc">  -  nshaghaghi@scu.edu</span></a>
+						<a href="mailto:nshaghaghi@scu.edu" target="_blank">Navid Shaghaghi<span class="desc"></span></a>
 					</li>
 					<!-- https://www.linkedin.com/in/nshaghaghi/ -->
 				</ul>
@@ -152,21 +152,19 @@
 				<h2>Research Team</h2>
 
 				<ul class="teamList">
-					<li><a href="mailto:hlyons@scu.edu">Heather Lyons<span class="desc">  -  hlyons@scu.edu</span></a></li>
+					<li><a href="mailto:hlyons@scu.edu">Heather Lyons<span class="desc"></span></a></li>
 
-					<li><a href="mailto:edgar.garcia@upb.edu.co">Edgar Garcia<span class="desc">  -  edgar.garcia@upb.edu.co</span></a></li>
+					<li><a href="mailto:edgar.garcia@upb.edu.co">Edgar Garcia<span class="desc"></span></a></li>
 
-					<li><a href="mailto:isabel.zuluagagonzalez@alumni.scu.edu">Isabel Zuluaga Gonzalez<span class="desc"> - isabel.zuluagagonzalez@alumni.scu.edu</span></a></li>
+					<li><a href="mailto:isabel.zuluagagonzalez@alumni.scu.edu">Isabel Zuluaga Gonzalez<span class="desc"></span></a></li>
 
-					<li><a href="mailto:slee7@scu.edu">Samantha Lee<span class="desc">  -  slee7@scu.edu</span></a></li>
+					<li><a href="mailto:slee7@scu.edu">Samantha Lee<span class="desc"></span></a></li>
 
-					<li><a href="mailto:kalyaninitin.shinde@alumni.scu.edu">Kalyani Shinde<span class="desc">  -  kalyaninitin.shinde@alumni.scu.edu</span></a></li>	
+					<li><a href="mailto:kalyaninitin.shinde@alumni.scu.edu">Kalyani Shinde<span class="desc"></span></a></li>	
 
-					<li><a href="mailto:sanchez.jazmin.js@gmail.com">Jazmin Sanchez<span class="desc">  - sanchez.jazmin.js@gmail.com</span></a></li>	
+					<li><a href="mailto:sanchez.jazmin.js@gmail.com">Jazmin Sanchez<span class="desc"></span></a></li>	
 
-					<li><a href="mailto:roberto.hincapie@upb.edu.co">Roberto Hincapie<span class="desc">  - roberto.hincapie@upb.edu.co</span></a></li>
-
-
+					<li><a href="mailto:roberto.hincapie@upb.edu.co">Roberto Hincapie<span class="desc"></span></a></li>
 
 				</ul>
 			</section>
@@ -179,7 +177,7 @@
 					<div class="container">
 						<h3>Yue Yu</h3>
 						<hr/>
-						<h4 class="webdesc">yyu7@scu.edu</h4>
+						<h4 class="webdesc"></h4>
 
 						<div class="socialLinks">
 							<a href="https://www.linkedin.com/in/yyu05/" target="_blank">
@@ -199,7 +197,7 @@
 					<div class="container">
 						<h3>Cuitlahuac Ramirez</h3>
 						<hr/>
-						<h4 class="webdesc">cramirezborrego@scu.edu</h4>
+						<h4 class="webdesc"></h4>
 
 						<div class="socialLinks">
 							<a href="https://www.linkedin.com/in/cuit/" target="_blank">
@@ -219,7 +217,7 @@
 					<div class="container">
 						<h3>Emmet Whitehead</h3>
 						<hr/>
-						<h4 class="webdesc">ewhitehead@scu.edu</h4>
+						<h4 class="webdesc"></h4>
 
 						<div class="socialLinks">
 							<a href="https://www.linkedin.com/in/emmet-whitehead-b1182a183/" target="_blank">

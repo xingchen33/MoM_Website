@@ -17,7 +17,7 @@
         
             <div id="cover">
                 <div class="left">
-                    <h1>Welcome to the Mitigation of Misinformation Project!</h1>
+                    <h1>Welcome to the Mitigation of Misinformation Project! (MoM)</h1>
                     <p>Asking the question... what would MoM do?
                     </p>
                 </div>
@@ -82,11 +82,11 @@
                         <!-- <a class="external" href="#">Check out the project's main site</a> -->
                         <div class="line">
                             <p>Read our publication!</p>
-                            <a class="internal" href="https://link.springer.com/chapter/10.1007/978-3-031-33614-0_13", target="_blank">Learn more</a>
+                            <a class="internal" href="https://link.springer.com/chapter/10.1007/978-3-031-33614-0_13", target="_blank">Learn more!</a>
                         </div>
                         <div class="line">
                             <p>Meet the team!</p>
-                            <a class="internal" href="team.php">Learn more</a>
+                            <a class="internal" href="team.php">Learn more!</a>
                         </div>
                     </div>
                 
