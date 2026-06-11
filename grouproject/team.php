@@ -131,7 +131,7 @@
 			<h1>Meet the Team</h1>
 			<p>
 				See who the faculty advisor, research team, and website developers
-				who helped bring this project to life.
+				who created this site are.
 			</p>
 		</div>
 
