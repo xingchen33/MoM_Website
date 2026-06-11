@@ -142,7 +142,7 @@
 
 				<ul class="teamList">
 					<li>
-						<a href="mailto:nshaghaghi@scu.edu" target="_blank">Navid Shaghaghi<span class="desc">  -  nshaghaghi.scu.edu</span></a>
+						<a href="mailto:nshaghaghi@scu.edu" target="_blank">Navid Shaghaghi<span class="desc">  -  nshaghaghi@scu.edu</span></a>
 					</li>
 					<!-- https://www.linkedin.com/in/nshaghaghi/ -->
 				</ul>
