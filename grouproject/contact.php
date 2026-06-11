@@ -1,122 +1,172 @@
-:root {
-  --scu-red: #A32035;
-  --text-dark: #2c3e50;
-  --bg-light: #f8f9fa;
-}
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/contact.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+         <!-- Loads the hCaptcha script so the captcha box can appear on the page next to the form -->
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    </head>
 
-h1{
-    margin-top:1rem;
-    color:white;
-    margin-bottom:0;
-}
+    <body>
+        <?php include "nav.php";?>
+        <div id='content'>
+            <div id='form'>
+                <h1>Contact Us!</h1>
+                <p>Fill out this form to email us!</p>
 
-#form{
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-    height:70%;
-    background-color:var(--scu-red);
-    width:fit-content;
-     margin: 0 auto;
-    padding:0 4rem 2rem 4rem;
-    margin-top:1rem;
-    margin-bottom:1rem;
-    border-radius:10px;
-}
+                <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
-#form p{
-    margin-top:0;
-    color:white;
-    margin-bottom:1.5rem;
-}
+                <div id="short">
+                    <label for ="name">Name </label>
+                    <input type = "text" id ="name" name="name"/>
+                    
+                    <label for = "email">Email </label>
+                    <input type = "text" id="email" name="email"/>
 
-form{
-    display: flex;
-    flex-direction:column;
+                </div>
 
-}
+                    <label for = "message">Message </label>
+                    <textarea type = "text" id="message" name="message"> </textarea>
 
-input{
-    margin-left:1rem;
-    margin-right:1rem;
-    border-radius: 10px;
-    border:none;
-}
+                <div id="cap">
 
+                    <!-- Connects to my hCaptcha account -->
+                    <div class="h-captcha" data-sitekey="0f804a9e-76e4-41f4-b038-7430ef6217de"></div>
+                
+                    <button class= 'internal' type = 'submit' id='submit'> submit </button>
 
+                </div>
+                </form>
+            </div>
+        </div>
 
-#cap {
-    display: inline-flex;
-    align-items: center;
-    gap:1rem;
-    width:auto;
-    
-}
+    <?php
 
-.h-captcha {
-     width: 302px; 
-     margin-top:1rem;
+        function clean($data){
+            $data = trim($data);
+            $data = stripcslashes($data);
+            return $data;
 
-}
+        }
 
-textarea{
-    border-radius: 10px;
-    border-color:none;
-    margin-bottom:1rem;
+        $name = '';
+        $email = '';
+        $message = '';
 
-}
+        if($_SERVER["REQUEST_METHOD"]=="POST"){
 
-label{
-    color:white;
-     font-size:1.5rem;
-     font-style:bold;
-     margin-bottom:0.5rem;
-}
+            $name = clean ($_POST["name"] ?? '');
+            $email = clean($_POST["email"] ?? '');//get the post data from form
+            $message = clean($_POST["message"] ?? '');
 
-#short{
-    display:flex;
-    flex-direction:row;
-    margin-bottom:0.5rem;
-}
+            // After the captcha is completed by the user, a value gets created
+            // but if the user doesn't complete the captcha, this value is empty
+            $captchaResponse = $_POST["h-captcha-response"] ?? '';
+            // key unique to the hcaptcha account I made
+                        $secretKey = "ES_d14c5aa2c7af4f2d85fda6e3ea9aa608";
+            
+            if($name !== '' && $email !== '' && $message !== ''){
 
-#short input{
-    width: 15rem; 
-}
+                // checks that the catpcha was done
+                if($captchaResponse == ''){
+                    echo "Please complete the captcha!";
+                    exit;
+                }
 
-#message{
-    height:12rem;
-}
+                // the URL to verify the catpcha
+                $verifyURL = "https://hcaptcha.com/siteverify";
 
-.internal{
-    height:5rem;
-    font-size:1.5rem;
+                // this is the data that'll get sent to hCaptcha
+                $data = [
+                    "secret" => $secretKey,
+                    "response" => $captchaResponse
+                ];
 
 
-}
+                // the settings for the post request sent to hCaptcha
+                $options = [
+                    "http" => [
+                        "header" => "Content-type: application/x-www-form-urlencoded\r\n",
+                        "method" => "POST",
+                        "content" => http_build_query($data)
+                    ]
+                ];
 
-.h-captcha{
-    margin-bottom:1rem;
-}
+                // Sends the verification request to hCaptcha and decode the response
+                $context = stream_context_create($options);
+                $result = file_get_contents($verifyURL, false, $context);
+                $responseData = json_decode($result);
 
-form input[type="text"]{
-    font-size:1.5rem !important;
-}
+                // key part: if the captcha response is valid, then the email is good to send
+                if($responseData && $responseData->success){
+                    
+                    // $recipient = "noreply@scu.edu";//can be changed to other address
+                    $subject = "New Contact Form Message from $name: \n\n";
 
-#short input {
-    font-size: 1.5rem;
-    width: 15rem;
-}
+                    $body = "You have recieved a new message from the MoM website contact
+                    form. \n\n".
+                    "Name: $name\n".
+                    "Email: $email\n".
+                    "Message: \n$message";
 
-textarea {
-    font-size: 1.5rem;
-}
+                        //write sample email
 
-#content{
-    display:flex;
-    background-image:url('../img/contact_background.jpg');
-    margin-top:0;
-    background-size:cover;
-    background-position-y:-20rem;
-    background-repeat: no-repeat; 
-    
-}
+                    $baseName = "sample";
+                    $extension = ".txt";
+
+                    $filename = $baseName . $extension;
+                    $counter = 1;
+
+                    while (file_exists($filename)) {
+                        $filename = $baseName . "(" . $counter . ")" . $extension;
+                        $counter++;
+                    }
+
+                    $output = fopen($filename, "w")or die("File not found");
+
+                    if (fwrite($output, $subject . $body)) {
+                        echo "<script>
+                            alert('Message saved successfully!');
+                            window.location.href = window.location.href;
+                        </script>";
+                    } else {
+                        echo "<script>alert('Something went wrong');</script>";
+                    }
+
+                    // fwrite($output, $subject);
+                    // fwrite($output,$body);
+                    // $headers = "From: noreply@ssl.students.engr.scu.edu\r\n";
+                    // $headers .= "Reply-To: $email\r\n";
+                    // $headers .="X-Mailer : PHP/" . phpversion();
+
+
+
+                    // if(mail($recipient, $subject, $body, $headers)){
+                    //     echo "Your message has been sent!";
+                    // } else {
+                    //     echo "Oh no...Something went wrong.";
+                    // }
+
+                    fclose($output);
+                    exit;
+
+            }else{
+                echo"Name/email/message connot be left empty!";
+                exit;
+            }
+
+
+        }
+        }
+
+
+    ?>
+
+    <?php include "footer.php";?>
+
+
+        </body>
+</html>
