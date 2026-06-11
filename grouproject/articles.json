@@ -1,74 +1,144 @@
 {
-    "articles": [
-        {
-            "id": 1,
-            "title": "NASA Confirms Water Ice Found on the Moon's Surface",
-            "date": "March 14, 2024",
-            "content": "Scientists at NASA have confirmed the presence of water ice on the Moon's surface, particularly in permanently shadowed craters near the lunar poles. The discovery was made using data from the Lunar Reconnaissance Orbiter and could have major implications for future lunar missions. Water ice could potentially be used as a resource for drinking water and even rocket fuel, making long-term human habitation on the Moon more feasible. Researchers believe the ice may have been deposited over billions of years by comets and asteroids. This finding marks a significant step forward in humanity's plans to return to the Moon under the Artemis program.",
-            "isReal": true
-        },
-        {
-            "id": 2,
-            "title": "Scientists Discover That Drinking Coffee Reverses Aging by 20 Years",
-            "date": "July 22, 2024",
-            "content": "A groundbreaking new study claims that drinking four cups of coffee per day can reverse the aging process by up to 20 years. Researchers from a fictional institute in Geneva say they observed participants growing younger at a cellular level after just three weeks of increased coffee consumption. The study, which has not been peer reviewed, suggests that a newly discovered compound in coffee called 'juvenol' is responsible for the effect. Doctors are cautioning the public not to change their habits based on this report, as no credible scientific body has verified the findings. Several nutrition experts have called the study misleading and dangerous.",
-            "isReal": false
-        },
-        {
-            "id": 3,
-            "title": "The Great Wall of China Is Not Visible from Space with the Naked Eye",
-            "date": "January 5, 2023",
-            "content": "Contrary to a popular myth that has persisted for decades, the Great Wall of China cannot be seen from space with the naked eye. Astronauts including China's own Yang Liwei have confirmed that the wall is too narrow to be visible from orbit without aid. The myth likely spread because the wall is extraordinarily long, leading people to assume it would be visible from a great distance. NASA has clarified that from low Earth orbit, the wall's width of roughly 15 to 30 feet makes it nearly impossible to spot. The myth has been debunked by multiple space agencies and is now commonly cited as a widespread misconception.",
-            "isReal": true
-        },
-        {
-            "id": 4,
-            "title": "Government Secretly Adding Mind-Control Chemicals to Tap Water Since 1987",
-            "date": "October 31, 2024",
-            "content": "A leaked document allegedly proves that the federal government has been adding a chemical compound known as 'Neurocalm-7' to municipal tap water supplies since 1987 in order to suppress independent thinking among the population. The document, which has not been verified by any government or scientific agency, was reportedly obtained by an anonymous whistleblower. Health officials have firmly denied the claims and water safety experts say no such chemical exists in any regulatory database. Independent testing of tap water across several major cities found no unusual compounds. Scientists warn that stories like this undermine public trust in water safety systems that protect millions of people daily.",
-            "isReal": false
-        },
-        {
-            "id": 5,
-            "title": "Amazon Rainforest Absorbs Less Carbon Than Previously Thought, Study Finds",
-            "date": "May 3, 2023",
-            "content": "A new study published in the journal Nature has found that parts of the Amazon rainforest are now releasing more carbon dioxide than they absorb, a concerning reversal driven largely by deforestation and climate change. Researchers analyzed two decades of atmospheric data from across the Amazon basin and found that heavily deforested areas in the eastern Amazon have become net carbon emitters. The findings raise alarm about the rainforest's ability to act as a carbon sink that helps regulate the global climate. Scientists are calling for immediate action to halt deforestation and restore degraded areas. The study is considered one of the most comprehensive analyses of the Amazon's carbon balance to date.",
-            "isReal": true
-        },
-        {
-            "id": 6,
-            "title": "Local Man Discovers Dinosaur Living in His Backyard Pond",
-            "date": "August 18, 2024",
-            "content": "A resident of rural Ohio claims to have discovered a living dinosaur in the pond behind his property, which he has named 'Denny.' The man posted a blurry photograph on social media which quickly went viral, garnering millions of views. Paleontologists and biologists who examined the image concluded that the creature was most likely a large snapping turtle or a submerged log. Non-avian dinosaurs went extinct approximately 66 million years ago following a massive asteroid impact. No credible scientific body has investigated the claim, and local wildlife officials say no unusual animals have been reported in the area.",
-            "isReal": false
-        },
-        {
-            "id": 7,
-            "title": "Honeybee Populations Declining Across North America, Threatening Food Supply",
-            "date": "February 11, 2024",
-            "content": "Honeybee populations across North America have continued to decline at alarming rates, raising serious concerns about food security. Beekeepers reported losing nearly 48 percent of their managed colonies over the past year, one of the highest loss rates on record. Scientists attribute the decline to a combination of factors including pesticide exposure, habitat loss, parasites like the Varroa mite, and the effects of climate change. Honeybees are responsible for pollinating roughly one third of the food humans consume, including fruits, vegetables, and nuts. Agricultural experts are urging lawmakers to implement stronger protections for pollinators and to promote pesticide-free farming practices.",
-            "isReal": true
-        },
-        {
-            "id": 8,
-            "title": "New Study Proves Humans Only Use 10% of Their Brain",
-            "date": "September 9, 2023",
-            "content": "A study published by an unaccredited research group is claiming to have finally proven the long-standing myth that humans only use 10 percent of their brain at any given time. The researchers say they used a new form of brain imaging to show that large portions of the brain remain dormant throughout daily life. Neuroscientists have widely and repeatedly debunked this myth, pointing out that brain imaging studies show activity throughout virtually the entire brain over the course of a day. Different regions handle different tasks such as movement, language, memory, and emotion. The 10 percent myth is considered one of the most persistent neuroscience misconceptions and has no basis in modern scientific understanding.",
-            "isReal": false
-        },
-        {
-            "id": 9,
-            "title": "Iceland Runs on Nearly 100% Renewable Energy",
-            "date": "April 17, 2024",
-            "content": "Iceland has long been recognized as a world leader in renewable energy, with nearly all of its electricity generated from geothermal and hydropower sources. The country's unique geological position on the Mid-Atlantic Ridge gives it access to abundant geothermal heat, which is used not only for electricity but also to heat homes and buildings across the island. Approximately 85 percent of Iceland's total energy needs, including heating, are met by renewables. The country exports its model as an example of how nations with the right geography can achieve near-total energy independence from fossil fuels. Iceland's carbon footprint per capita is among the lowest in the developed world despite its cold climate.",
-            "isReal": true
-        },
-        {
-            "id": 10,
-            "title": "Scientists Say Eating Pizza Every Day Boosts IQ by 15 Points",
-            "date": "November 2, 2024",
-            "content": "A viral report circulating on social media claims that a team of Italian scientists have found that eating pizza every day can raise a person's IQ by an average of 15 points within six months. The report cites a study allegedly conducted at the University of Naples, though no such study appears in any academic database. Nutritionists have called the claim absurd, noting that while tomatoes contain beneficial antioxidants, no food has been shown to significantly increase measured intelligence. The story appears to have originated from a satirical website before being shared as fact across multiple platforms. Educators and media literacy advocates are using the story as an example of how misinformation spreads online.",
-            "isReal": false
-        }
-    ]
+  "articles": [
+    {
+      "id": 1,
+      "title": "NASA Confirms Water Ice Found on the Moon's Surface",
+      "date": "March 14, 2024",
+      "content": "Scientists at NASA have confirmed the presence of water ice on the Moon's surface, particularly in permanently shadowed craters near the lunar poles. The discovery was made using data from the Lunar Reconnaissance Orbiter and could have major implications for future lunar missions. Water ice could potentially be used as a resource for drinking water and even rocket fuel, making long-term human habitation on the Moon more feasible. Researchers believe the ice may have been deposited over billions of years by comets and asteroids. This finding marks a significant step forward in humanity's plans to return to the Moon under the Artemis program.",
+      "isReal": true
+    },
+    {
+      "id": 2,
+      "title": "Scientists Discover That Drinking Coffee Reverses Aging by 20 Years",
+      "date": "July 22, 2024",
+      "content": "A groundbreaking new study claims that drinking four cups of coffee per day can reverse the aging process by up to 20 years. Researchers from a fictional institute in Geneva say they observed participants growing younger at a cellular level after just three weeks of increased coffee consumption. The study, which has not been peer reviewed, suggests that a newly discovered compound in coffee called 'juvenol' is responsible for the effect. Doctors are cautioning the public not to change their habits based on this report, as no credible scientific body has verified the findings. Several nutrition experts have called the study misleading and dangerous.",
+      "isReal": false
+    },
+    {
+      "id": 3,
+      "title": "The Great Wall of China Is Not Visible from Space with the Naked Eye",
+      "date": "January 5, 2023",
+      "content": "Contrary to a popular myth that has persisted for decades, the Great Wall of China cannot be seen from space with the naked eye. Astronauts including China's own Yang Liwei have confirmed that the wall is too narrow to be visible from orbit without aid. The myth likely spread because the wall is extraordinarily long, leading people to assume it would be visible from a great distance. NASA has clarified that from low Earth orbit, the wall's width of roughly 15 to 30 feet makes it nearly impossible to spot. The myth has been debunked by multiple space agencies and is now commonly cited as a widespread misconception.",
+      "isReal": true
+    },
+    {
+      "id": 4,
+      "title": "Government Secretly Adding Mind-Control Chemicals to Tap Water Since 1987",
+      "date": "October 31, 2024",
+      "content": "A leaked document allegedly proves that the federal government has been adding a chemical compound known as 'Neurocalm-7' to municipal tap water supplies since 1987 in order to suppress independent thinking among the population. The document, which has not been verified by any government or scientific agency, was reportedly obtained by an anonymous whistleblower. Health officials have firmly denied the claims and water safety experts say no such chemical exists in any regulatory database. Independent testing of tap water across several major cities found no unusual compounds. Scientists warn that stories like this undermine public trust in water safety systems that protect millions of people daily.",
+      "isReal": false
+    },
+    {
+      "id": 5,
+      "title": "Amazon Rainforest Absorbs Less Carbon Than Previously Thought, Study Finds",
+      "date": "May 3, 2023",
+      "content": "A new study published in the journal Nature has found that parts of the Amazon rainforest are now releasing more carbon dioxide than they absorb, a concerning reversal driven largely by deforestation and climate change. Researchers analyzed two decades of atmospheric data from across the Amazon basin and found that heavily deforested areas in the eastern Amazon have become net carbon emitters. The findings raise alarm about the rainforest's ability to act as a carbon sink that helps regulate the global climate. Scientists are calling for immediate action to halt deforestation and restore degraded areas. The study is considered one of the most comprehensive analyses of the Amazon's carbon balance to date.",
+      "isReal": true
+    },
+    {
+      "id": 6,
+      "title": "Local Man Discovers Dinosaur Living in His Backyard Pond",
+      "date": "August 18, 2024",
+      "content": "A resident of rural Ohio claims to have discovered a living dinosaur in the pond behind his property, which he has named 'Denny.' The man posted a blurry photograph on social media which quickly went viral, garnering millions of views. Paleontologists and biologists who examined the image concluded that the creature was most likely a large snapping turtle or a submerged log. Non-avian dinosaurs went extinct approximately 66 million years ago following a massive asteroid impact. No credible scientific body has investigated the claim, and local wildlife officials say no unusual animals have been reported in the area.",
+      "isReal": false
+    },
+    {
+      "id": 7,
+      "title": "Honeybee Populations Declining Across North America, Threatening Food Supply",
+      "date": "February 11, 2024",
+      "content": "Honeybee populations across North America have continued to decline at alarming rates, raising serious concerns about food security. Beekeepers reported losing nearly 48 percent of their managed colonies over the past year, one of the highest loss rates on record. Scientists attribute the decline to a combination of factors including pesticide exposure, habitat loss, parasites like the Varroa mite, and the effects of climate change. Honeybees are responsible for pollinating roughly one third of the food humans consume, including fruits, vegetables, and nuts. Agricultural experts are urging lawmakers to implement stronger protections for pollinators and to promote pesticide-free farming practices.",
+      "isReal": true
+    },
+    {
+      "id": 8,
+      "title": "New Study Proves Humans Only Use 10% of Their Brain",
+      "date": "September 9, 2023",
+      "content": "A study published by an unaccredited research group is claiming to have finally proven the long-standing myth that humans only use 10 percent of their brain at any given time. The researchers say they used a new form of brain imaging to show that large portions of the brain remain dormant throughout daily life. Neuroscientists have widely and repeatedly debunked this myth, pointing out that brain imaging studies show activity throughout virtually the entire brain over the course of a day. Different regions handle different tasks such as movement, language, memory, and emotion. The 10 percent myth is considered one of the most persistent neuroscience misconceptions and has no basis in modern scientific understanding.",
+      "isReal": false
+    },
+    {
+      "id": 9,
+      "title": "Iceland Runs on Nearly 100% Renewable Energy",
+      "date": "April 17, 2024",
+      "content": "Iceland has long been recognized as a world leader in renewable energy, with nearly all of its electricity generated from geothermal and hydropower sources. The country's unique geological position on the Mid-Atlantic Ridge gives it access to abundant geothermal heat, which is used not only for electricity but also to heat homes and buildings across the island. Approximately 85 percent of Iceland's total energy needs, including heating, are met by renewables. The country exports its model as an example of how nations with the right geography can achieve near-total energy independence from fossil fuels. Iceland's carbon footprint per capita is among the lowest in the developed world despite its cold climate.",
+      "isReal": true
+    },
+    {
+      "id": 10,
+      "title": "Scientists Say Eating Pizza Every Day Boosts IQ by 15 Points",
+      "date": "November 2, 2024",
+      "content": "A viral report circulating on social media claims that a team of Italian scientists have found that eating pizza every day can raise a person's IQ by an average of 15 points within six months. The report cites a study allegedly conducted at the University of Naples, though no such study appears in any academic database. Nutritionists have called the claim absurd, noting that while tomatoes contain beneficial antioxidants, no food has been shown to significantly increase measured intelligence. The story appears to have originated from a satirical website before being shared as fact across multiple platforms. Educators and media literacy advocates are using the story as an example of how misinformation spreads online.",
+      "isReal": false
+    },
+    {
+      "id": 11,
+      "title": "Octopuses Have Three Hearts and Blue Blood, Biologists Confirm",
+      "date": "June 8, 2023",
+      "content": "Marine biologists continue to highlight the remarkable anatomy of the octopus, which possesses three separate hearts and blood that is blue rather than red. Two of the hearts pump blood to the gills, while the third circulates it to the rest of the body. The blue color comes from a copper-based molecule called hemocyanin, which the octopus uses to transport oxygen instead of the iron-based hemoglobin found in human blood. Hemocyanin is more efficient than hemoglobin in cold, low-oxygen ocean environments. Researchers note that the central heart often stops beating when the octopus swims, which is one reason these animals tend to prefer crawling along the seafloor.",
+      "isReal": true
+    },
+    {
+      "id": 12,
+      "title": "5G Cell Towers Found to Spread Viruses Through the Air, Group Claims",
+      "date": "December 1, 2024",
+      "content": "A self-described research collective is claiming that 5G cell towers are capable of transmitting viruses directly through their radio signals, infecting people who live nearby. The group says the signals 'energize' viral particles and propel them through the air over long distances. Physicists and epidemiologists have flatly rejected the claim, explaining that radio waves are a form of non-ionizing electromagnetic radiation and cannot carry or activate biological matter of any kind. Viruses spread through physical contact and respiratory droplets, not through radio frequencies. Public health agencies have repeatedly debunked links between 5G technology and disease, noting that the claims have no scientific mechanism behind them.",
+      "isReal": false
+    },
+    {
+      "id": 13,
+      "title": "Sharks Are Older Than Trees, Fossil Record Shows",
+      "date": "March 27, 2023",
+      "content": "Sharks have existed on Earth longer than trees have, according to the fossil record studied by paleontologists. The earliest sharks appeared roughly 450 million years ago, while the first trees emerged around 350 million years ago. This means sharks predate not only trees but also the dinosaurs, Saturn's rings, and the North Star. Sharks have survived all five of the planet's major mass extinction events, evolving into the diverse range of species seen today. Scientists point to the shark's efficient body design and adaptability as key reasons for its extraordinary endurance across hundreds of millions of years.",
+      "isReal": true
+    },
+    {
+      "id": 14,
+      "title": "Man Claims He Hasn't Slept in 12 Years Thanks to Special Diet",
+      "date": "October 14, 2024",
+      "content": "A man from an unnamed town is claiming that he has not slept a single minute in over 12 years, attributing his condition to a special diet of raw vegetables and herbal tea. He says he feels more energetic than ever and that humans do not actually need sleep. Sleep researchers have dismissed the claim as impossible, explaining that total sleep deprivation for even a few weeks would be fatal. The longest scientifically documented period without sleep is about 11 days, and it caused severe cognitive impairment. Medical experts say no diet can eliminate the biological need for sleep, and that claims like this are not supported by any credible evidence.",
+      "isReal": false
+    },
+    {
+      "id": 15,
+      "title": "Mount Everest Continues to Grow Taller Each Year, Geologists Say",
+      "date": "January 22, 2024",
+      "content": "Geologists confirm that Mount Everest is slowly growing taller, rising by approximately a few millimeters every year. The growth is caused by the ongoing collision of the Indian and Eurasian tectonic plates, which continues to push the Himalayan mountain range upward. This same tectonic activity is responsible for the frequent earthquakes in the region. In 2020, a joint survey by China and Nepal officially recalculated the mountain's height to 8,848.86 meters, slightly higher than previous measurements. Scientists note that erosion and seismic events can also affect the mountain's height, making precise long-term measurements an ongoing scientific effort.",
+      "isReal": true
+    },
+    {
+      "id": 16,
+      "title": "Eating Carrots Gives Humans the Ability to See in Complete Darkness",
+      "date": "August 5, 2023",
+      "content": "A widely shared online article is claiming that eating large quantities of carrots can give people the ability to see in total darkness, much like a nocturnal animal. The article suggests that the beta-carotene in carrots can 'upgrade' the human eye within weeks. Ophthalmologists have clarified that while carrots contain vitamin A, which supports general eye health, no amount of carrots can enable vision in the complete absence of light. The myth is believed to trace back to World War II propaganda, when the British spread rumors about carrots to hide the existence of radar technology. Experts stress that human eyes are physically incapable of seeing without at least some light.",
+      "isReal": false
+    },
+    {
+      "id": 17,
+      "title": "Bananas Are Naturally Radioactive Due to Potassium Content",
+      "date": "April 30, 2024",
+      "content": "Bananas are naturally slightly radioactive because they contain potassium, a small fraction of which exists as the radioactive isotope potassium-40. The amount of radiation in a single banana is extremely tiny and poses no health risk to people who eat them. The concept has become so well known that scientists sometimes use the informal 'banana equivalent dose' to help the public understand and compare very small amounts of radiation exposure. A person would need to eat an impossibly large number of bananas in a short time for the radiation to be harmful. Many other common foods, including potatoes and Brazil nuts, also contain naturally occurring radioactive elements.",
+      "isReal": true
+    },
+    {
+      "id": 18,
+      "title": "NASA Discovers Parallel Universe Where Time Runs Backward",
+      "date": "November 19, 2024",
+      "content": "Viral posts are claiming that NASA has discovered a parallel universe in which time flows backward, based on a supposed experiment in Antarctica. The posts assert that scientists detected particles traveling back in time, proving the existence of a mirror universe. NASA and the physicists involved have stated that this is a significant distortion of an actual experiment, which detected unusual particle activity that has several possible mundane explanations still under investigation. No evidence of a parallel universe or backward-flowing time was found or claimed by the researchers. Science communicators have pointed to the story as a classic example of how sensational headlines can misrepresent legitimate but preliminary research.",
+      "isReal": false
+    },
+    {
+      "id": 19,
+      "title": "Wombats Produce Cube-Shaped Droppings, Researchers Find",
+      "date": "July 3, 2023",
+      "content": "Researchers have confirmed that wombats, the burrowing marsupials native to Australia, produce droppings that are distinctly cube-shaped. Scientists studying wombat intestines found that the unusual shape is formed by varying elasticity in the walls of the animal's digestive tract, which molds the waste into cubes before it exits the body. The flat-sided shape is thought to help the droppings stay in place when wombats use them to mark territory, preventing them from rolling away on uneven ground. The discovery earned a team of researchers an Ig Nobel Prize, an award that recognizes unusual and humorous scientific achievements. It remains one of the few known examples of naturally produced cube shapes in the animal kingdom.",
+      "isReal": true
+    },
+    {
+      "id": 20,
+      "title": "Scientists Unveil Working Invisibility Cloak Available in Stores Next Month",
+      "date": "December 22, 2024",
+      "content": "A press release circulating online claims that scientists have invented a fully functional invisibility cloak that makes the wearer completely undetectable, and that it will be sold in retail stores within a month for under $100. The release includes a heavily edited video purporting to show a person vanishing entirely. Optical physicists have explained that while real research into 'metamaterials' and limited light-bending exists, no technology can currently render a human being fully invisible across all viewing angles and lighting conditions. Experts note that the dramatic video shows clear signs of digital editing. Researchers in the field describe the claim as wildly exaggerated and say a consumer product matching the description does not exist.",
+      "isReal": false
+    }
+  ]
 }
