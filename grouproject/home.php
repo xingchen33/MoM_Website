@@ -38,9 +38,9 @@
                     </div>
                     <aside class="right">
                         <ul>
-                            <li><img class="why_svg" src="img/home_svg.png">The spread of misinformation is running rampant on social media</li>
-                            <li><img class="why_svg" src="img/home_svg.png">It's becoming increasingly difficult to discern what is fake and not</li>
-                            <li><img class="why_svg" src="img/home_svg.png">There has to be a better way to figure out what is misinformation and what is not!</li>
+                            <li><img class="why_svg" src="img/why_1.png">The spread of misinformation is running rampant on social media</li>
+                            <li><img class="why_svg" src="img/why_2.png">It's becoming increasingly difficult to discern what is fake and not</li>
+                            <li><img class="why_svg" src="img/why_3.png">There has to be a better way to figure out what is misinformation and what is not!</li>
                             <!-- <li id="poster"> <- Click the link to learn more from the research poster!</li> -->
 
                         </ul>
@@ -67,7 +67,7 @@
                     </li>
                 </ul>
 
-                <a id="pipeline" class="external" href="external/pipeline.png", target = "_blank">See Pipeline to Learn More!</a>
+                <a id="pipeline" class="external" href="external/pipeline.png", target = "_blank">View our Pipeline to learn more!</a>
 
             </div>
 
