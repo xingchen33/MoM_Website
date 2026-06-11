@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/contact.css">
 
-        <!-- hCaptcha connect -->
+        <!-- Loads the hCaptcha script so the captcha box can appear on the page next to the form -->
         <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
     </head>
@@ -25,6 +25,7 @@
                 <label for = "message">Message:</label>
                 <textarea type = "text" id="message" name="message"> </textarea>
             
+                <!-- Connects to my hCaptcha account -->
                 <div class="h-captcha" data-sitekey="0f804a9e-76e4-41f4-b038-7430ef6217de"></div>
 
                 <button type = 'submit' id='submit'> submit </button>
@@ -50,6 +51,8 @@
             $email = clean($_POST["email"] ?? '');//get the post data from form
             $message = clean($_POST["message"] ?? '');
 
+            // After the captcha is completed by the user, a value gets created
+            // but if the user doesn't complete the captcha, this value is empty
             $captchaResponse = $_POST["h-captcha-response"] ?? '';
             // key unique to the hcaptcha account I made
                         $secretKey = "ES_d14c5aa2c7af4f2d85fda6e3ea9aa608";
@@ -65,11 +68,14 @@
                 // the URL to verify the catpcha
                 $verifyURL = "https://hcaptcha.com/siteverify";
 
+                // this is the data that'll get sent to hCaptcha
                 $data = [
                     "secret" => $secretKey,
                     "response" => $captchaResponse
                 ];
 
+
+                // the settings for the post request sent to hCaptcha
                 $options = [
                     "http" => [
                         "header" => "Content-type: application/x-www-form-urlencoded\r\n",
@@ -78,28 +84,32 @@
                     ]
                 ];
 
+                // Sends the verification request to hCaptcha and decode the response
                 $context = stream_context_create($options);
                 $result = file_get_contents($verifyURL, false, $context);
                 $responseData = json_decode($result);
+
+                // key part: if the captcha response is valid, then the email is good to send
                 if($responseData && $responseData->success){
 
-                $recipient = "cramirezborrego@scu.edu"; // can be changed to other address
-                $subject = "New Contact Form Message from $name";
+                    // can be changed to other address; just put mine for now
+                    $recipient = "cramirezborrego@scu.edu";
+                    $subject = "New Message from $name";
 
-                $body = "You have received a new message from the MoM website contact form!\n\n" .
-                "Name: $name\n" .
-                "Email: $email\n" .
-                "Message:\n$message";
+                    $body = "You have received a new message from the MoM website contact form!\n\n" .
+                    "Name: $name\n" .
+                    "Email: $email\n" .
+                    "Message:\n$message";
 
-                $headers = "From: noreply@mitigationofmisinformation.com\r\n";
-                $headers .= "Reply-To: $email\r\n";
-                $headers .= "X-Mailer: PHP/" . phpversion();
+                    $headers = "From: noreply@mitigationofmisinformation.com\r\n";
+                    $headers .= "Reply-To: $email\r\n";
+                    $headers .= "X-Mailer: PHP/" . phpversion();
 
-                if(mail($recipient, $subject, $body, $headers)){
-                    echo "Your message has been sent!";
-                } else {
-                    echo "Oh no... Something went wrong.";
-                }
+                    if(mail($recipient, $subject, $body, $headers)){
+                        echo "Your message has been sent!";
+                    } else {
+                        echo "Oh no... Something went wrong.";
+                    }
 
                 } else {
                     echo "Captcha verification failed. Please try again.";
