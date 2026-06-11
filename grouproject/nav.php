@@ -11,9 +11,9 @@ echo '
             <nav>
 
                 <ul id="topnav">
-                    <li><a href="#">Home</a>    |    </li>
-                    <li><a href="#">Game</a>    |    </li>
-                    <li><a href="#">Contact</a>    |    </li>
+                    <li><a href="home.php">Home</a>    |    </li>
+                    <li><a href="game.php">Game</a>    |    </li>
+                    <li><a href="contact.php">Contact</a>    |    </li>
                     <li><a href="team.php">Meet the Devs</a>    </li>
                 </ul>
 
