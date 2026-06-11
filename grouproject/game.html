@@ -12,36 +12,45 @@
 	</head>
 
 	<body>
-		
+		<div id='content'>
 
-		<div id="instructionDiv">
-			<h1>Real or Fake?</h1>
-			<hr/>
-			<h2>Instructions</h2>
-			<p id="instructionText">Read the article below! Decide if you think it is real or fake and choose accordingly.</p>
-		</div>
-		<p id="resultText"></p>
-
-		<div id="gameDiv">
-			<div id="scoreDiv">
-				<p id="scoreText"></p>
-    			<p id="timerText">Time Left:</p>
-    		</div>
-			<div id="article">
-				<h3 id="articleTitle">Article_Title</h3>
-				<p id="articleDate">Date</p>
-				<div id="articleContent">
-					<p>Article</p>
+			<div class="left">
+				<div id="instructionDiv">
+					<h1>Real or Fake?</h1>
+					<!-- <hr/> -->
+					<p id="instructionText">Read the article below! Decide if you think it is real or fake and choose accordingly.</p>
 				</div>
+				<p id="resultText"></p>
+
+
+				<div id="gameDiv">
+					<div id="scoreDiv">
+						<p id="scoreText"></p>
+						<p id="timerText">Time Left:</p>
+				</div>
+			</div>
 
 			</div>
-			<div id="buttonDiv">
-				<button id="realButton">REAL</button>
-				<button id="fakeButton">FAKE</button>
-				<input type="hidden" id="answerInput" name="answer" value="">
-				<button id="nextButton">NEXT</button>
-				
-			</div>
+
+			<aside class="right">
+		
+				<div id="article" >
+					<h3 id="articleTitle">Article_Title</h3>
+					<p id="articleDate">Date</p>
+					<div id="articleContent">
+						<p>Article</p>
+					</div>
+
+				</div>
+				<div id="buttonDiv">
+					<button id="realButton">REAL</button>
+					<button id="fakeButton">FAKE</button>
+					<input type="hidden" id="answerInput" name="answer" value="">
+					<button id="nextButton">NEXT</button>
+					
+				</div>
+			</aside>
+		
 		</div>
 
 	</body>
