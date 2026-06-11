@@ -1,42 +1,53 @@
 <html>
     <head>
-        <title>Contact Us!</title>
+        <title>Home</title>
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/contact.css">
-
-        <!-- Loads the hCaptcha script so the captcha box can appear on the page next to the form -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+         <!-- Loads the hCaptcha script so the captcha box can appear on the page next to the form -->
         <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-
     </head>
 
     <body>
         <?php include "nav.php";?>
-        <div class='section'>
-            <h1>Contact Us!</h1>
-            <p>If you would like to contact us, please fill out this form and we'll get in touch:</p>
+        <div id='content'>
+            <div id='form'>
+                <h1>Contact Us!</h1>
+                <p>Fill out this form to email us!</p>
 
-            <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                <label for ="name">Name:</label>
-                <input type = "text" id ="name" name="name"/>
+                <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
+                <div id="short">
+                    <label for ="name">Name </label>
+                    <input type = "text" id ="name" name="name"/>
+                    
+                    <label for = "email">Email </label>
+                    <input type = "text" id="email" name="email"/>
+
+                </div>
+
+                    <label for = "message">Message </label>
+                    <textarea type = "text" id="message" name="message"> </textarea>
+
+                <div id="cap">
+
+                    <!-- Connects to my hCaptcha account -->
+                    <div class="h-captcha" data-sitekey="0f804a9e-76e4-41f4-b038-7430ef6217de"></div>
                 
-                <label for = "email">Email:</label>
-                <input type = "text" id="email" name="email"/>
+                    <button class= 'internal' type = 'submit' id='submit'> submit </button>
 
-                <label for = "message">Message:</label>
-                <textarea type = "text" id="message" name="message"> </textarea>
-            
-                <!-- Connects to my hCaptcha account -->
-                <div class="h-captcha" data-sitekey="0f804a9e-76e4-41f4-b038-7430ef6217de"></div>
-
-                <button type = 'submit' id='submit'> submit </button>
-            </form>
+                </div>
+                </form>
+            </div>
         </div>
 
     <?php
 
         function clean($data){
             $data = trim($data);
-            $data = stripslashes($data);
+            $data = stripcslashes($data);
             return $data;
 
         }
@@ -91,31 +102,56 @@
 
                 // key part: if the captcha response is valid, then the email is good to send
                 if($responseData && $responseData->success){
+                    
+                    // $recipient = "noreply@scu.edu";//can be changed to other address
+                    $subject = "New Contact Form Message from $name: \n\n";
 
-                    // can be changed to other address; just put mine for now
-                    $recipient = "cramirezborrego@scu.edu";
-                    $subject = "New Message from $name";
+                    $body = "You have recieved a new message from the MoM website contact
+                    form. \n\n".
+                    "Name: $name\n".
+                    "Email: $email\n".
+                    "Message: \n$message";
 
-                    $body = "You have received a new message from the MoM website contact form!\n\n" .
-                    "Name: $name\n" .
-                    "Email: $email\n" .
-                    "Message:\n$message";
+                        //write sample email
 
-                    $headers = "From: noreply@mitigationofmisinformation.com\r\n";
-                    $headers .= "Reply-To: $email\r\n";
-                    $headers .= "X-Mailer: PHP/" . phpversion();
+                    $baseName = "sample";
+                    $extension = ".txt";
 
-                    if(mail($recipient, $subject, $body, $headers)){
-                        echo "Your message has been sent!";
-                    } else {
-                        echo "Oh no... Something went wrong.";
+                    $filename = $baseName . $extension;
+                    $counter = 1;
+
+                    while (file_exists($filename)) {
+                        $filename = $baseName . "(" . $counter . ")" . $extension;
+                        $counter++;
                     }
 
-                } else {
-                    echo "Captcha verification failed. Please try again.";
-                    exit;
-                }
+                    $output = fopen($filename, "w")or die("File not found");
 
+                    if (fwrite($output, $subject . $body)) {
+                        echo "<script>
+                            alert('Message saved successfully!');
+                            window.location.href = window.location.href;
+                        </script>";
+                    } else {
+                        echo "<script>alert('Something went wrong');</script>";
+                    }
+
+                    // fwrite($output, $subject);
+                    // fwrite($output,$body);
+                    // $headers = "From: noreply@ssl.students.engr.scu.edu\r\n";
+                    // $headers .= "Reply-To: $email\r\n";
+                    // $headers .="X-Mailer : PHP/" . phpversion();
+
+
+
+                    // if(mail($recipient, $subject, $body, $headers)){
+                    //     echo "Your message has been sent!";
+                    // } else {
+                    //     echo "Oh no...Something went wrong.";
+                    // }
+
+                    fclose($output);
+                    exit;
 
             }else{
                 echo"Name/email/message connot be left empty!";
@@ -124,9 +160,13 @@
 
 
         }
+        }
 
 
     ?>
 
-    </body>
+    <?php include "footer.php";?>
+
+
+        </body>
 </html>
