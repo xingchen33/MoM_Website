@@ -122,6 +122,7 @@ h1{
 
 }
 
+
 /* .containerOuter{
     display:flex;
     gap:4rem;
@@ -148,7 +149,12 @@ h1{
 }
 
 .whatIcon{
-    height:9rem;
+    height:10rem;
+}
+
+.whatIcon2{
+    width:20rem;
+    height:7rem;
 }
 
 #pipeline{

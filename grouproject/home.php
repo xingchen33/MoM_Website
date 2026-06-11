@@ -14,11 +14,8 @@
         
             <div id="cover">
                 <div class="left">
-                    <h1>Welcome to the Project</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur nulla nec auctor dapibus. Cras leo nisi, blandit ac dui eu, malesuada 
-                        dictum justo. 
-                        Nulla fringilla mattis est, quis venenatis turpis imperdiet sit amet. Donec non egestas leo. Praesent ornare porta risus a convallis. Suspendisse 
-                        tristique.
+                    <h1>Welcome to the Mitigation of Misinformation Project!</h1>
+                    <p>What would MoM do?
                     </p>
                 </div>
                 <aside class="right">
@@ -37,13 +34,13 @@
 
                     <div class="left">
                         <img src="img/home_why.png"/>
-                        <a class="external" href="external/poster.pdf">Read Research Poster</a>
+                        <a class="external" href="external/poster.pdf">View Research Poster</a>
                     </div>
                     <aside class="right">
                         <ul>
-                            <li><img class="why_svg" src="img/home_svg.png">Sed efficitur nulla nec auctor dapibus.</li>
-                            <li><img class="why_svg" src="img/home_svg.png">Sed efficitur nulla nec auctor dapibus.</li>
-                            <li><img class="why_svg" src="img/home_svg.png">Sed efficitur nulla nec auctor dapibus.</li>
+                            <li><img class="why_svg" src="img/home_svg.png">The spread of misinformation is running rampant on social media</li>
+                            <li><img class="why_svg" src="img/home_svg.png">It's becoming increasingly difficult to discern what is fake and not</li>
+                            <li><img class="why_svg" src="img/home_svg.png">There has to be a better way to figure out what is misinformation and what is not!</li>
                             <li id="poster"> <- Click the link to learn more from the research poster!</li>
 
                         </ul>
@@ -54,23 +51,23 @@
             </div>
 
             <div  class='section split3' id="what">
-                <h2>What MoM Does</h1>
+                <h2>How MoM Works</h1>
                 <ul class="containerOuter">
                     <li class="container">
                         <img class="whatIcon" src="img/home_what1.png"/>
-                        <p>Nulla fringilla mattis est, quis venenatis turpis imperdiet sit amet.</p>
+                        <p>Creates a pipeline to collect posts and data from Bluesky and Mastadon</p>
                     </li>
                     <li class="container">
-                        <img class="whatIcon" src="img/home_what1.png"/>
-                        <p>Nulla fringilla mattis est, quis venenatis turpis imperdiet sit amet.</p>
+                        <img class="whatIcon" src="img/home_what2.png"/>
+                        <p>Discerns between the truth and misinformation using cleverly-named classifier and text sentiment models</p>
                     </li>
                     <li class="container">
-                        <img class="whatIcon" src="img/home_what1.png"/>
-                        <p>Nulla fringilla mattis est, quis venenatis turpis imperdiet sit amet.</p>
+                        <img class="whatIcon2" src="img/home_what3.png"/>
+                        <p>Re-introduces ranked social posts into social media feed based on truth rating</p>
                     </li>
                 </ul>
 
-                <a id="pipeline" class="external" href="external/pipeline.png">See Pipeline to Learn More!</a>
+                <a id="pipeline" class="external" href="external/pipeline.png", target = "_blank">See Pipeline to Learn More!</a>
 
             </div>
 
