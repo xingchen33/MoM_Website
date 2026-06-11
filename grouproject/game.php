@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- favicon link -->
+		<link rel="icon" type="image/favicon" href="img/favicon.ico">
+	</head>
+</html>
+
 <?php
 	include "nav.php";
 

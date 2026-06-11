@@ -11,6 +11,9 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+		<!-- favicon link -->
+		<link rel="icon" type="image/favicon" href="img/favicon.ico">
+
 		<style>
 			#teamCover {
 				background-image: linear-gradient(to bottom, orange, #A32035);

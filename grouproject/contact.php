@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Home</title>
+        <title>Contact Us</title>
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/contact.css">
          <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,6 +8,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
          <!-- Loads the hCaptcha script so the captcha box can appear on the page next to the form -->
         <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
+        <!-- favicon link -->
+        <link rel="icon" type="image/favicon" href="img/favicon.ico">
     </head>
 
     <body>
