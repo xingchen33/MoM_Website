@@ -1,4 +1,6 @@
 <?php
+	include "nav.php";
+
 	session_start();
 
 	$pdo = new PDO('sqlite:scores.db');
@@ -183,4 +185,5 @@
 	header('Content-Type: text/html');
 	echo $dom->saveHTML();
 
+	include "footer.php";
 ?>
