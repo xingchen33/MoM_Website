@@ -142,7 +142,8 @@
 
 				<ul class="teamList">
 					<li>
-						<a href="mailto:nshaghaghi@scu.edu" target="_blank">Navid Shaghaghi<span class="desc"></span></a>
+						<a>Navid Shaghaghi<span class="desc"></span></a>
+						<!-- href="mailto:nshaghaghi@scu.edu" target="_blank" -->
 					</li>
 					<!-- https://www.linkedin.com/in/nshaghaghi/ -->
 				</ul>
@@ -152,19 +153,26 @@
 				<h2>Research Team</h2>
 
 				<ul class="teamList">
-					<li><a href="mailto:hlyons@scu.edu">Heather Lyons<span class="desc"></span></a></li>
+					<li><a>Heather Lyons<span class="desc"></span></a></li>
+					<!--  href="mailto:hlyons@scu.edu" -->
 
-					<li><a href="mailto:edgar.garcia@upb.edu.co">Edgar Garcia<span class="desc"></span></a></li>
+					<li><a>Edgar Garcia<span class="desc"></span></a></li>
+					<!--  href="mailto:edgar.garcia@upb.edu.co" -->
 
-					<li><a href="mailto:isabel.zuluagagonzalez@alumni.scu.edu">Isabel Zuluaga Gonzalez<span class="desc"></span></a></li>
+					<li><a>Isabel Zuluaga Gonzalez<span class="desc"></span></a></li>
+					<!--  href="mailto:isabel.zuluagagonzalez@alumni.scu.edu" -->
 
-					<li><a href="mailto:slee7@scu.edu">Samantha Lee<span class="desc"></span></a></li>
+					<li><a>Samantha Lee<span class="desc"></span></a></li>
+					<!--  href="mailto:slee7@scu.edu" -->
 
-					<li><a href="mailto:kalyaninitin.shinde@alumni.scu.edu">Kalyani Shinde<span class="desc"></span></a></li>	
+					<li><a>Kalyani Shinde<span class="desc"></span></a></li>	
+					<!--  href="mailto:kalyaninitin.shinde@alumni.scu.edu" -->
 
-					<li><a href="mailto:sanchez.jazmin.js@gmail.com">Jazmin Sanchez<span class="desc"></span></a></li>	
+					<li><a>Jazmin Sanchez<span class="desc"></span></a></li>	
+					<!--  href="mailto:sanchez.jazmin.js@gmail.com" -->
 
-					<li><a href="mailto:roberto.hincapie@upb.edu.co">Roberto Hincapie<span class="desc"></span></a></li>
+					<li><a>Roberto Hincapie<span class="desc"></span></a></li>
+					<!--  href="mailto:roberto.hincapie@upb.edu.co" -->
 
 				</ul>
 			</section>
