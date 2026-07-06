@@ -3,7 +3,7 @@
         <title>Contact Us</title>
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/contact.css">
-         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
          <!-- Loads the hCaptcha script so the captcha box can appear on the page next to the form -->

@@ -13,8 +13,9 @@ echo '
                 <ul id="topnav">
                     <li><a href="home.php">Home</a></li>
                     <li><a href="game.php">Game</a></li>
+                    <li><a href="pipeline.php">Research Pipeline</a></li>
+                    <li><a href="team.php">Meet the Team</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="team.php">Meet the Team</a>    </li>
                 </ul>
 
             </nav>
