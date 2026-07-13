@@ -4,6 +4,8 @@
         <title>Research Pipeline</title>
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/pipeline.css">
+        <!-- favicon link -->
+        <link rel="icon" type="image/favicon" href="img/favicon.ico">
     </head>
 
     <body>
