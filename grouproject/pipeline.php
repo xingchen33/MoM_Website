@@ -37,7 +37,7 @@
                             </p>
                         </div>
 
-                        <div class="step-image">
+                        <div class="step-image-one">
                             <img src="img/home_what1.png" alt="Data collection example">
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         </div>
 
                         <div class="step-image">
-                            <img src="images/data-cleaning.png" alt="Data cleaning example">
+                            <img src="img/mom_segment1.png" alt="Data cleaning example">
                         </div>
                     </div>
                 </div>
@@ -76,11 +76,11 @@
 
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
-                            </p>a
+                            </p>
                         </div>
 
                         <div class="step-image">
-                            <img src="images/data-processing.jpg" alt="Data processing example">
+                            <img src="img/mom_segment2.png" alt="Data processing example">
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,8 @@
                         </div>
 
                         <div class="step-image">
-                            <img src="images/data-analysis.jpg" alt="Data analysis example">
+                            <img src="img/mom_segment3.png" alt="Data analysis example">
+                            <img src="img/mom_segment4.png" alt="Data analysis example">
                         </div>
                     </div>
                 </div>
@@ -122,7 +123,28 @@
                         </div>
 
                         <div class="step-image">
-                            <img src="images/results.jpg" alt="Research results example">
+                            <img src="img/mom_segment5.png" alt="Research results example">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <div class="step-number">6</div>
+
+                    <div class="step-content">
+                        <div class="step-text">
+                            <h2>Results 2</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                            </p>
+
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                            </p>
+                        </div>
+
+                        <div class="step-image">
+                            <img src="img/mom_segment6.png" alt="Research results example">
                         </div>
                     </div>
                 </div>

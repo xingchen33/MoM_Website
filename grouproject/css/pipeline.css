@@ -82,6 +82,21 @@
     /* changed to 0px instead of 1px for the images in the pipeline to have no border */
 }
 
+/*step-image-one is the first step image; adjusted the size since it was larger*/
+
+.step-image-one {
+    flex: 1;
+    text-align: center;
+}
+
+.step-image-one img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 10px;
+    border: 0px solid #cccccc; 
+    /* changed to 0px instead of 1px for the images in the pipeline to have no border */
+}
+
 /* This makes every other step flip direction slightly */
 .pipeline-step:nth-child(even) .step-content {
     flex-direction: row-reverse;
