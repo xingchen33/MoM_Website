@@ -139,8 +139,17 @@
 	border-radius: 8px;
 	padding: 2rem 1rem;
 	box-sizing: border-box;
+/*
+	opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;*/
 }
-
+/*
+#team .container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+*/
 #team .container h3 {
 	color: var(--scu-red);
 	margin-top: 0;
@@ -172,4 +181,53 @@
 .webdesc {
 	color: grey;
 }
+
+
+/* page scroll animation */
+
+#faculty .container,
+#research .container,
+#developers .container,
+#team .container {
+	opacity: 0;
+	transform: translateY(60px);
+	/* changing this line changes the transition speed */
+	transition: opacity 1s ease, transform 1s ease;
+}
+
+#faculty .container.show,
+#research .container.show,
+#developers .container.show,
+#team .container.show {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* responsive styling */
+
+@media screen and (max-width: 800px) {
+	#teamCover {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+
+/*
+	disables the animation for specific user settings but I'll leave this
+	tabbed out for now
+*/
+
+/*
+@media (prefers-reduced-motion: reduce) {
+	#faculty .container,
+	#research .container,
+	#developers .container,
+	#team .container {
+		opacity: 1;
+		transform: none;
+		transition: none;
+	}
+}*/
 

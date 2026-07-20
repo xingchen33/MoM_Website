@@ -15,6 +15,8 @@
 		<!-- favicon link -->
 		<link rel="icon" type="image/favicon" href="img/favicon.ico">
 
+		<script src="script/team.js"></script>
+
 	</head>
 
 	<body>
@@ -262,6 +264,8 @@
 		</main>
 
 		<?php include "footer.php";?>
+
+		<script src="scripts/team.js"></script>
 
 	</body>
 </html>
