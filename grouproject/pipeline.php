@@ -50,11 +50,7 @@
                         <div class="step-text">
                             <h2>Data Cleaning</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
-                            </p>
-
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                                The post data from the social platform posts are gathered, segmented into smaller chunks of text, and unnecessary information is removed. This prepares the data for analysis in the next step.
                             </p>
                         </div>
 
@@ -71,11 +67,11 @@
                         <div class="step-text">
                             <h2>Data Processing</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                                The cleansed data is then analyzed by the RoBERTa model to determine whether the post at hand is either stating an opinion or is trying to make a factual claim. 
                             </p>
 
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                                Depending on what the post is determined to be, the piece of information is then classified as a factual post or an opinion-based post.
                             </p>
                         </div>
 
@@ -92,11 +88,11 @@
                         <div class="step-text">
                             <h2>Analysis</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                                Based on six datasets of already classified post data in multiple languages on topics ranging from celebrity gossip and political news to COVID-19 news and more, the BERT model determines whether a post is true or false. True in this context is understood to be highly likely to be true, and false is very unlikely to be true.
                             </p>
 
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                                The post data at hand is also anaylized for sentiment to determine whether the tone of the post is positive or negative; this plays a role in whether or not the post is misinformation.
                             </p>
                         </div>
 
@@ -114,11 +110,11 @@
                         <div class="step-text">
                             <h2>Results</h2>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                                Once a post has been analyzed, a percentage validity score is assigned based on the chance that it is a piece of truthful information. This post is then reintroduced into a social media user's feed.
                             </p>
 
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                                The reintroduction of classified posts is done in ranked manner where the posts with the highest validity/truthfulness scores are placed at the top of the feed, and less truthful posts are inserted further down in the feed.
                             </p>
                         </div>
 
@@ -128,7 +124,10 @@
                     </div>
                 </div>
 
-                <div class="pipeline-step">
+
+<!-- future step 6 if ellaboration needed -->
+
+<!--                 <div class="pipeline-step">
                     <div class="step-number">6</div>
 
                     <div class="step-content">
@@ -147,7 +146,7 @@
                             <img src="img/mom_segment6.png" alt="Research results example">
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
