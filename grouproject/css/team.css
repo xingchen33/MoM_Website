@@ -99,7 +99,7 @@
 	margin-top: 0;
 }
 
-/*---------- for the team contact boxes ------*/
+/*---------- for the resesarch team contact boxes ------*/
 
 #team {
 	background-color: var(--scu-red);
@@ -135,7 +135,7 @@
 
 #team .container {
 	background-color: #f7f9fc;
-	border-top: 5px solid orange;
+	border-top: 5px solid #a32035;
 	border-radius: 8px;
 	padding: 2rem 1rem;
 	box-sizing: border-box;
