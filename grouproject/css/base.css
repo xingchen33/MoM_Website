@@ -86,7 +86,8 @@ nav{
     padding-bottom:3rem;
 }
 
-.split3 .containerOuter{ /*this is for the 3-box stcture that is planned to be used in meet the dev page.*/
+/*this is for the 3-box stcture that is planned to be used in meet the dev page.*/
+.split3 .containerOuter{ 
 
     display:flex;
     gap:4rem;
@@ -100,6 +101,8 @@ nav{
     list-style-type:none;
     text-align: center;
 }
+
+/*------------*/
 
 h1,h2,h3{
 

@@ -6,6 +6,7 @@
 
 		<link rel="stylesheet" href="css/base.css"/>
 		<link rel="stylesheet" href="css/home.css"/>
+		<link rel="stylesheet" href="css/team.css"/>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,113 +15,6 @@
 		<!-- favicon link -->
 		<link rel="icon" type="image/favicon" href="img/favicon.ico">
 
-		<style>
-			#teamCover {
-				background-image: linear-gradient(to bottom, orange, #A32035);
-				padding-left: 8rem;
-				padding-right: 8rem;
-				padding-top: 3rem;
-				padding-bottom: 3rem;
-				margin-bottom: 0;
-			}
-
-			#teamCover h1 {
-				color: white;
-				margin-bottom: 1rem;
-			}
-
-			#teamCover p {
-				color: white;
-				max-width: 50rem;
-			}
-
-			#faculty {
-				background-color: white;
-				margin-top: 0;
-			}
-
-			#faculty h2,
-			#research h2 {
-				color: var(--scu-red);
-			}
-
-			.teamList {
-				list-style-type: none;
-				padding-left: 0;
-			}
-
-			.teamList li {
-				background-color: var(--bg-light);
-				border-left: 5px solid var(--scu-red);
-				padding: 1rem;
-				margin-bottom: 1rem;
-				border-radius: 5px;
-			}
-
-			.teamList a {
-				color: var(--scu-red);
-				text-decoration: none;
-				font-weight: 700;
-			}
-
-			.teamList a:hover {
-				text-decoration: underline;
-			}
-
-			#research {
-				background-color: var(--bg-light);
-				margin-top: 0;
-			}
-
-			#developers {
-				background-color: var(--scu-red);
-				margin-top: 0;
-			}
-
-			#developers h2 {
-				color: white;
-			}
-
-			#developers .container {
-				background-color: white;
-				border-top: 5px solid orange;
-				border-radius: 8px;
-				padding: 2rem 1rem;
-				box-sizing: border-box;
-			}
-
-			#developers .container h3 {
-				color: var(--scu-red);
-				margin-top: 0;
-			}
-
-			.socialLinks {
-				display: flex;
-				justify-content: center;
-				gap: 1rem;
-				margin-top: 1rem;
-			}
-
-			.socialLinks img {
-				height: 30px;
-				width: auto;
-				vertical-align: middle;
-			}
-
-			.socialLinks a {
-				text-decoration: none;
-			}
-
-			.desc {
-				color: grey;
-			}
-
-			.webdesc {
-				color: grey;
-			}
-
-
-		</style>
 	</head>
 
 	<body>
@@ -136,45 +30,165 @@
 		</div>
 
 		<main>
+			
+			<section class="section split3" id="team">
+				<h2 style="color: var(--scu-red);">
+					Faculty Advisor</h2>
+				<div class="containerOuter">
+					<div class="container">
+						<h3>Navid Shaghaghi</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
 
-			<section class="section" id="faculty">
-				<h2>Santa Clara University Faculty Advisor</h2>
+						<div class="socialLinks">
+							<a href="https://www.linkedin.com/in/nshaghaghi/" target="_blank">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
 
-				<ul class="teamList">
-					<li>
-						<a>Navid Shaghaghi<span class="desc"></span></a>
-						<!-- href="mailto:nshaghaghi@scu.edu" target="_blank" -->
-					</li>
-					<!-- https://www.linkedin.com/in/nshaghaghi/ -->
-				</ul>
+							<a href="https://github.com/nshaghaghi" target="_blank">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
+
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a>
+					</div>
+				</div>
 			</section>
 
-			<section class="section" id="research">
-				<h2>Research Team</h2>
 
-				<ul class="teamList">
-					<li><a>Heather Lyons<span class="desc"></span></a></li>
-					<!--  href="mailto:hlyons@scu.edu" -->
+			<section class="section split3" id="team">
+				<h2 style="color: var(--scu-red);">
+					Research Team</h2>
+				<div class="containerOuter">
+					<div class="container">
+						<h3>Heather Lyons</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
 
-					<li><a>Edgar Garcia<span class="desc"></span></a></li>
-					<!--  href="mailto:edgar.garcia@upb.edu.co" -->
+						<div class="socialLinks">
+							<a href="https://www.linkedin.com/in/heather-lyons12/" target="_blank">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
 
-					<li><a>Isabel Zuluaga Gonzalez<span class="desc"></span></a></li>
-					<!--  href="mailto:isabel.zuluagagonzalez@alumni.scu.edu" -->
+							<a href="https://github.com/HeatherLyons" target="_blank">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
 
-					<li><a>Samantha Lee<span class="desc"></span></a></li>
-					<!--  href="mailto:slee7@scu.edu" -->
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a>
+						</div>
+					</div>
 
-					<li><a>Kalyani Shinde<span class="desc"></span></a></li>	
-					<!--  href="mailto:kalyaninitin.shinde@alumni.scu.edu" -->
+					<div class="container">
+						<h3>Edgar Garcia</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
 
-					<li><a>Jazmin Sanchez<span class="desc"></span></a></li>	
-					<!--  href="mailto:sanchez.jazmin.js@gmail.com" -->
+						<div class="socialLinks">
+							<a href="https://www.linkedin.com/in/edgar-garc%C3%ADa-75162539/" target="_blank">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
 
-					<li><a>Roberto Hincapie<span class="desc"></span></a></li>
-					<!--  href="mailto:roberto.hincapie@upb.edu.co" -->
+							<a href="">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
 
-				</ul>
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a>
+						</div>
+					</div>
+
+					<div class="container">
+						<h3>Isabel Zuluaga Gonzalez</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
+
+						<div class="socialLinks">
+							<a href="https://www.linkedin.com/in/isabelzuluaga/" target="_blank">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
+
+							<a href="">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
+
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<!-- second row of names  -->
+
+			<section class="section split3" id="team">
+				<div class="containerOuter">
+					<div class="container">
+						<h3>Samantha Lee</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
+
+						<div class="socialLinks">
+							<a href="https://www.linkedin.com/in/samanthalee003/" target="_blank">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
+
+							<a href="https://github.com/samanthalee023" target="_blank">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
+
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a>
+						</div>
+					</div>
+
+					<div class="container">
+						<h3>Jazmin Sanchez</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
+
+						<div class="socialLinks">
+							<a href="">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
+
+							<a href="">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
+
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a>
+						</div>
+					</div>
+
+					<div class="container">
+						<h3>Roberto Hincapie</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
+
+						<div class="socialLinks">
+							<a href="">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
+
+							<a href="">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
+
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a>
+						</div>
+					</div>
+				</div>
 			</section>
 
 			<section class="section split3" id="developers">
@@ -196,7 +210,7 @@
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
 
-							<a href="mailto:yyu7@scu.edu">
+							<a href="/contact.php">
 								<img src="img/email_icon.png" alt="Email icon"/>
 							</a>
 						</div>
@@ -216,7 +230,7 @@
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
 
-							<a href="mailto:cramirezborrego@scu.edu">
+							<a href="/contact.php">
 								<img src="img/email_icon.png" alt="Email icon"/>
 							</a>
 						</div>
@@ -236,14 +250,14 @@
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
 
-							<a href="mailto:ewhitehead@scu.edu">
+							<a href="/contact.php">
 								<img src="img/email_icon.png" alt="Email icon"/>
 							</a>
 						</div>
 					</div>
-
 				</div>
 			</section>
+
 
 		</main>
 

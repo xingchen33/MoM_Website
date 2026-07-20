@@ -1,0 +1,175 @@
+#teamCover {
+	background-image: linear-gradient(to bottom, orange, #A32035);
+	padding-left: 8rem;
+	padding-right: 8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin-bottom: 0;
+}
+
+#teamCover h1 {
+	color: white;
+	margin-bottom: 1rem;
+}
+
+#teamCover p {
+	color: white;
+	max-width: 50rem;
+}
+
+#faculty {
+	background-color: white;
+	margin-top: 0;
+}
+
+#faculty h2,
+#research h2 {
+	color: var(--scu-red);
+}
+
+.teamList {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.teamList li {
+	background-color: var(--bg-light);
+	border-left: 5px solid var(--scu-red);
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+
+.teamList a {
+	color: var(--scu-red);
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.teamList a:hover {
+	text-decoration: underline;
+}
+
+#research {
+	background-color: var(--bg-light);
+	margin-top: 0;
+}
+
+#developers {
+	background-color: var(--scu-red);
+	margin-top: 0;
+}
+
+#developers h2 {
+	color: white;
+}
+
+#developers .container {
+	background-color: white;
+	border-top: 5px solid orange;
+	border-radius: 8px;
+	padding: 2rem 1rem;
+	box-sizing: border-box;
+}
+
+#developers .container h3 {
+	color: var(--scu-red);
+	margin-top: 0;
+}
+
+#developers {
+	background-color: var(--scu-red);
+	margin-top: 0;
+}
+
+#developers h2 {
+	color: white;
+}
+
+#developers .container {
+	background-color: white;
+	border-top: 5px solid orange;
+	border-radius: 8px;
+	padding: 2rem 1rem;
+	box-sizing: border-box;
+}
+
+#developers .container h3 {
+	color: var(--scu-red);
+	margin-top: 0;
+}
+
+/*---------- for the team contact boxes ------*/
+
+#team {
+	background-color: var(--scu-red);
+	margin-top: 0;
+}
+
+#team h2 {
+	color: white;
+}
+
+#team .container {
+	background-color: white;
+	border-top: 5px solid orange;
+	border-radius: 8px;
+	padding: 2rem 1rem;
+	box-sizing: border-box;
+}
+
+#team .container h3 {
+	color: var(--scu-red); 
+	margin-top: 0;
+}
+
+#team {
+	/* controls the background for the team section */
+	background-color: white;
+	margin-top: 0;
+}
+
+#team h2 {
+	color: white;
+}
+
+#team .container {
+	background-color: #f7f9fc;
+	border-top: 5px solid orange;
+	border-radius: 8px;
+	padding: 2rem 1rem;
+	box-sizing: border-box;
+}
+
+#team .container h3 {
+	color: var(--scu-red);
+	margin-top: 0;
+}
+
+/*----------*/
+
+.socialLinks {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.socialLinks img {
+	height: 30px;
+	width: auto;
+	vertical-align: middle;
+}
+
+.socialLinks a {
+	text-decoration: none;
+}
+
+.desc {
+	color: grey;
+}
+
+.webdesc {
+	color: grey;
+}
+
