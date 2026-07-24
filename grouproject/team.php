@@ -50,10 +50,6 @@
 							<a href="https://github.com/nshaghaghi" target="_blank">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
 					</div>
 				</div>
 			</section>
@@ -76,10 +72,6 @@
 							<a href="https://github.com/HeatherLyons" target="_blank">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
 						</div>
 					</div>
 
@@ -96,10 +88,6 @@
 							<a href="">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
 						</div>
 					</div>
 
@@ -115,10 +103,6 @@
 
 							<a href="">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
-							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
 							</a>
 						</div>
 					</div>
@@ -144,10 +128,6 @@
 							<a href="https://github.com/samanthalee023" target="_blank">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
 						</div>
 					</div>
 
@@ -164,10 +144,6 @@
 							<a href="">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
 						</div>
 					</div>
 
@@ -183,10 +159,6 @@
 
 							<a href="">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
-							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
 							</a>
 						</div>
 					</div>
@@ -211,10 +183,6 @@
 							<a href="https://github.com/xingchen33" target="_blank">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
 						</div>
 					</div>
 
@@ -231,10 +199,10 @@
 							<a href="https://github.com/cramirez3182" target="_blank">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
+							<!--  tabbed out email icon
 							<a href="/contact.php">
 								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
+							</a> -->
 						</div>
 					</div>
 
@@ -252,9 +220,6 @@
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
 
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a>
 						</div>
 					</div>
 				</div>
