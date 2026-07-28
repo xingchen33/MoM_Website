@@ -64,26 +64,7 @@
 				<h2 style="color: var(--scu-red);">
 					Research Team</h2>
 				<div class="containerOuter">
-					<div class="container">
-
-						<!-- LinkedIn Profile picture -->
-
-						<img src="https://media.licdn.com/dms/image/v2/D5603AQH-fIN2a4mTOg/profile-displayphoto-crop_800_800/B56Z2s8g_DKwAU-/0/1776723044594?e=1786579200&v=beta&t=UoSP81iYTbQMdZLn9yxi2-HpVPrlhTA3ggB23voBJfM" alt="Headshot of Heather." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
-
-						<h3>Heather Lyons</h3>
-						<hr/>
-						<h4 class="webdesc"></h4>
-
-						<div class="socialLinks">
-							<a href="https://www.linkedin.com/in/heather-lyons12/" target="_blank">
-								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
-							</a>
-
-							<a href="https://github.com/HeatherLyons" target="_blank">
-								<img src="img/github_logo.png" alt="GitHub icon"/>
-							</a>
-						</div>
-					</div>
+					
 
 					<div class="container">
 
@@ -201,9 +182,30 @@
 			</section>
 
 			<section class="section split3" id="developers">
-				<h2>Website Developers</h2>
+				<h2>Previous Researchers</h2>
 
 				<div class="containerOuter">
+
+					<div class="container">
+
+						<!-- LinkedIn Profile picture -->
+
+						<img src="https://media.licdn.com/dms/image/v2/D5603AQH-fIN2a4mTOg/profile-displayphoto-crop_800_800/B56Z2s8g_DKwAU-/0/1776723044594?e=1786579200&v=beta&t=UoSP81iYTbQMdZLn9yxi2-HpVPrlhTA3ggB23voBJfM" alt="Headshot of Heather." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+
+						<h3>Heather Lyons</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
+
+						<div class="socialLinks">
+							<a href="https://www.linkedin.com/in/heather-lyons12/" target="_blank">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
+
+							<a href="https://github.com/HeatherLyons" target="_blank">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a>
+						</div>
+					</div>
 
 					<div class="container">
 
@@ -251,9 +253,7 @@
 						</div>
 					</div>
 
-					<div class="container">
-
-						<!-- LinkedIn Profile picture -->
+					<!-- <div class="container">
 
 						<img src="https://media.licdn.com/dms/image/v2/C5603AQE27S9CRD7uYw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1652389435703?e=1786579200&v=beta&t=knWofTaqrba7A4N1do2FlXxcGo3HdorKVy5iZ6Cjk1k" alt="Headshot of Emmet." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
@@ -272,7 +272,7 @@
 							</a>
 
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 
