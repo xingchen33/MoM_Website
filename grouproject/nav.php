@@ -1,24 +1,25 @@
 <?php
 echo '
-            <header><!--php header?-->
-                <img src="img/logo.png"/>
-                <div id="title">
-                    <img src = "img/title.png"/>
-                </div>
+    <header><!--php header?-->
+        <img src="img/logo.png"/>
+        
+        <div id="title">
+            <img src = "img/title.png"/>
+        </div>
 
-            </header>
+    </header>
 
-            <nav>
+    <nav>
 
-                <ul id="topnav">
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="game.php">Game</a></li>
-                    <li><a href="pipeline.php">Research Pipeline</a></li>
-                    <li><a href="team.php">Meet the Team</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
+        <ul id="topnav">
+            <li><a href="home.php">Home</a></li>
+            <li><a href="game.php">Game</a></li>
+            <li><a href="pipeline.php">Research Pipeline</a></li>
+            <li><a href="team.php">Meet the Team</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
 
-            </nav>
+    </nav>
 '
 
 ?>
