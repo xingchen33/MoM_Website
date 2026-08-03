@@ -55,27 +55,6 @@
 	margin-top: 0;
 }
 
-#developers {
-	background-color: var(--scu-red);
-	margin-top: 0;
-}
-
-#developers h2 {
-	color: white;
-}
-
-#developers .container {
-	background-color: white;
-	border-top: 5px solid orange;
-	border-radius: 8px;
-	padding: 2rem 1rem;
-	box-sizing: border-box;
-}
-
-#developers .container h3 {
-	color: var(--scu-red);
-	margin-top: 0;
-}
 
 #developers {
 	background-color: var(--scu-red);
@@ -92,6 +71,7 @@
 	border-radius: 8px;
 	padding: 2rem 1rem;
 	box-sizing: border-box;
+	margin: 1.5rem;
 }
 
 #developers .container h3 {
@@ -101,27 +81,6 @@
 
 /*---------- for the resesarch team contact boxes ------*/
 
-#team {
-	background-color: var(--scu-red);
-	margin-top: 0;
-}
-
-#team h2 {
-	color: white;
-}
-
-#team .container {
-	background-color: white;
-	border-top: 5px solid orange;
-	border-radius: 8px;
-	padding: 2rem 1rem;
-	box-sizing: border-box;
-}
-
-#team .container h3 {
-	color: var(--scu-red); 
-	margin-top: 0;
-}
 
 #team {
 	/* controls the background for the team section */
@@ -130,7 +89,7 @@
 }
 
 #team h2 {
-	color: white;
+	color: var(--scu-red);
 }
 
 #team .container {
@@ -139,17 +98,8 @@
 	border-radius: 8px;
 	padding: 2rem 1rem;
 	box-sizing: border-box;
-/*
-	opacity: 0;
-    transform: translateY(60px);
-    transition: opacity 0.8s ease, transform 0.8s ease;*/
 }
-/*
-#team .container.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-*/
+
 #team .container h3 {
 	color: var(--scu-red);
 	margin-top: 0;
