@@ -151,6 +151,8 @@
             </div>
         </div>
 
+        <!-- animation script for the scrolling pipeline info -->
+
         <script>
             function revealSteps() {
                 var steps = document.getElementsByClassName("pipeline-step");
@@ -168,5 +170,8 @@
             window.addEventListener("scroll", revealSteps);
             window.addEventListener("load", revealSteps);
         </script>
+
+        <?php include "footer.php";?>
+
     </body>
 </html>

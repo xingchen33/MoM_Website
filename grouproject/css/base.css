@@ -130,17 +130,40 @@ p,li{
 
 }
 
+/* FOOTER STYLING */
+
 footer{
     z-index:10;
-    background-color:#A32035;
+    align-items: center;
+    background-color: var(--scu-red);
     display:flex;
     justify-content:center;
     color:white;
+    padding: 2rem 4rem;
     padding-top:2rem;
-     padding-bottom:2rem;
-     filter: drop-shadow(8px 4px 4px rgba(0, 0, 0, 0.3));
-
+    padding-bottom:2rem;
+    /* tried some text styling but decided to ultimately not include it */
+    /*filter: drop-shadow(8px 4px 4px rgba(0, 0, 0, 0.3));*/
 }
+
+footer a {
+    flex-shrink: 0;
+}
+
+footer img {
+    /* THIS changes the SIZE of the MoM Logo */
+    width: 225px;
+    height: auto;
+}
+
+footer p {
+    flex: 1;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+/*------------*/
 
 .internal{ /*internal class, internal links button*/
     background-color:orange;

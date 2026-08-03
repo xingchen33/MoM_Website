@@ -1,14 +1,19 @@
 <?php
+    echo '
+    <footer>
+        <a href="/home.php">
+            <img src="img/mom_logo.png" alt="Mitigation of Misinformation project icon."/>
+        </a>
 
-    echo'
-        <footer><!--php footer?-->
-            <script>
-                const currentYear = new Date().getFullYear();
-                document.write("&copy "+currentYear + " Mitigation of Misinformation - EPIC Labs - Santa Clara University School of Engineering");
-            </script>
+        <p id="footerText"></p>
 
+        <script>
+            const currentYear = new Date().getFullYear();
 
-            
-        </footer>
-    '
+            document.getElementById("footerText").innerHTML =
+                "&copy; " + currentYear +
+                " Mitigation of Misinformation - EPIC Labs - Santa Clara University School of Engineering";
+        </script>
+    </footer>
+    ';
 ?>

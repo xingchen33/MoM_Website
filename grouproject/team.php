@@ -39,9 +39,9 @@
 				<div class="containerOuter">
 					<div class="container">
 
-						<!-- LinkedIn Profile picture -->
+						<!-- SCU SoE Faculty Page Image -->
 
-						<img src="https://avatars.githubusercontent.com/u/37026687?v=4" alt="Headshot of Navid." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+						<img src="https://www.scu.edu/media/school-of-engineering/photos/faculty-staff/faculty-pages/Navid-Shaghaghi.jpg" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
 						<h3>Navid Shaghaghi</h3>
 						<hr/>
@@ -49,11 +49,13 @@
 
 						<div class="socialLinks">
 							<a href="https://www.linkedin.com/in/nshaghaghi/" target="_blank">
-								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon."/>
 							</a>
-
 							<a href="https://github.com/nshaghaghi" target="_blank">
-								<img src="img/github_logo.png" alt="GitHub icon"/>
+								<img src="img/github_logo.png" alt="GitHub icon."/>
+							</a>
+							<a href="https://www.scu.edu/engineering/faculty/shaghaghi-navid/" target="_blank">
+								<img src="img/site_icon.png" alt="World-wide-web icon."/>
 							</a>
 					</div>
 				</div>
