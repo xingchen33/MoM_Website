@@ -310,7 +310,7 @@
 
 						<!-- LinkedIn Profile picture -->
 
-						<img src="https://media.licdn.com/dms/image/v2/D5635AQHeTOBMOzohwA/profile-framedphoto-shrink_800_800/B56Zwpvy_0KEAk-/0/1770226921701?e=1786402800&v=beta&t=ObnYr9S-cvruOnGYYeLfog5ea7PQX2ICbNv1tYkKFyo" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Tanya."/>
+						<img src="https://media.licdn.com/dms/image/v2/D5635AQHeTOBMOzohwA/profile-framedphoto-shrink_800_800/B56Zwpvy_0KEAk-/0/1770226921701?e=1787094000&v=beta&t=AV3nz08-VMa2D-GgdGp0sSvrWL3x6VkVxTTOD6VkcK4" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Tanya."/>
 
 						<h3>Tanya Mohanani</h3>
 						<hr/>
