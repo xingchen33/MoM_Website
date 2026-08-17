@@ -6,10 +6,9 @@ For paragraphs and internal links:  font-family: 'Inter', sans-serif;
 Add these into you header for each webpage.  This is for the fonts to work:
 
 
- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
 */
 
 
@@ -152,15 +151,24 @@ footer a {
 
 footer img {
     /* THIS changes the SIZE of the MoM Logo */
-    width: 225px;
+    width: 200px;
     height: auto;
 }
+
+footer .epicLogo{
+    width: 100px;
+    height: auto;
+    /* makes logo move further right from the mom logo */
+    margin-left: 50px;
+}
+
 
 footer p {
     flex: 1;
     text-align: center;
     color: white;
-    margin: 0;
+    margin-left: 40px;
+    font-size: 16px;
 }
 
 /*------------*/

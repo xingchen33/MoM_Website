@@ -1,13 +1,33 @@
 #content {
-    background-image: url("../img/contact_background.jpg");
-    background-size: cover;
+    /*background-image: url("../img/pipeline_banner.png");
+    background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     margin-top: 0;
     padding-top: 1rem;
     padding-bottom: 4rem;
     min-height: 100vh;
 }
+
+/*- BANNER STYLING -*/
+
+.pipeline-banner {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pipeline-banner {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/*------------------*/
 
 .pipeline-page {
     width: 80%;
@@ -53,7 +73,7 @@
     align-items: center;
     gap: 25px;
 
-    background-color: white;
+    background-color: #A51F35;
     border: 2px solid #800000;
     border-radius: 12px;
     padding: 25px;
@@ -62,11 +82,13 @@
 
 .step-text {
     flex: 1;
+    /* pipeline step color */
+    color: #FFFFFF;
 }
 
 .step-text h2 {
     margin-top: 0;
-    color: #800000;
+    color: #FFFFFF;
 }
 
 .step-image {
