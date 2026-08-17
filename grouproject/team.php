@@ -31,8 +31,7 @@
 			</p>
 		</div>
 
-		<main>
-			
+		<main>			
 			<section class="section split3" id="team">
 				<h2 style="color: var(--scu-red);">
 					Faculty Advisor</h2>
@@ -40,7 +39,6 @@
 					<div class="container">
 
 						<!-- SCU SoE Faculty Page Image -->
-
 						<img src="https://www.scu.edu/media/school-of-engineering/photos/faculty-staff/faculty-pages/Navid-Shaghaghi.jpg" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
 						<h3>Navid Shaghaghi</h3>
@@ -61,12 +59,10 @@
 				</div>
 			</section>
 
-
 			<section class="section split3" id="team">
 				<h2 style="color: var(--scu-red);">
 					Research Team</h2>
 				<div class="containerOuter">
-					
 
 					<div class="container">
 
@@ -111,7 +107,6 @@
 					<div class="container">
 						<!-- LinkedIn Profile picture -->
 
-
 						<img src="https://media.licdn.com/dms/image/v2/D5603AQGJMM2rVFwxhQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721627415817?e=1788393600&v=beta&t=vogW9-OrPLuIGsjalmI2TL5m-_ew470BMNr7C9iofZ0" alt="Headshot of Samantha." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
 						<h3>Samantha Lee</h3>
@@ -128,7 +123,6 @@
 							</a>
 						</div>	
 					</div>			
-
 				</div>
 
 			</section>
@@ -182,8 +176,6 @@
 							</a>
 						</div>
 					</div>
-
-					
 				</div>
 			</section>
 
@@ -232,7 +224,6 @@
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a> -->
 						</div>
-
 					</div>
 
 					<div class="container">
@@ -252,12 +243,10 @@
 							<a href="https://github.com/ewhitehead1" target="_blank">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a>
-
-						</div>
 						</div>
 
+						</div>
 					</div>
-
 				</div>
 
 			<!-- Second row of past researcher names -->
@@ -265,66 +254,24 @@
 
 					<div class="container">
 
-						<img src="https://media.licdn.com/dms/image/v2/D4E12AQEud3Ll5MI7cQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1660833954461?e=1788393600&v=beta&t=XYxQvoNPcXUCQmQwPjmlGYrrpQHOfqOX4g5OML9PW0I" alt="Headshot of Emmet." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+						<!-- LinkedIn No profile picture icon -->
 
+						<img src="https://media.licdn.com/dms/image/v2/D4E12AQEud3Ll5MI7cQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1660833954461?e=1788393600&v=beta&t=XYxQvoNPcXUCQmQwPjmlGYrrpQHOfqOX4g5OML9PW0I" alt="Headshot of Jazmin." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
-						<h3>Roberto Hincapie</h3>
-						<hr/>
-						<h4 class="webdesc"></h4>
-
-					</div>
-
-					<div class="container">
-
-						<!-- LinkedIn Profile picture -->
-
-						<img src="https://media.licdn.com/dms/image/v2/D5635AQHeTOBMOzohwA/profile-framedphoto-shrink_800_800/B56Zwpvy_0KEAk-/0/1770226921701?e=1787094000&v=beta&t=AV3nz08-VMa2D-GgdGp0sSvrWL3x6VkVxTTOD6VkcK4" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Tanya."/>
-
-						<h3>Tanya Mohanani</h3>
+						<h3>Jazmin Sanchez</h3>
 						<hr/>
 						<h4 class="webdesc"></h4>
 
 						<div class="socialLinks">
-							<a href="https://www.linkedin.com/in/tanya-mohanani/" target="_blank">
+							<!-- <a href="">
 								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
 							</a>
 
-							<!-- <a href="https://github.com/xingchen33" target="_blank">
+							<a href="">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a> -->
-						</div>
+						</div>	
 					</div>
-
-					<div class="container">
-
-						<!-- LinkedIn Profile picture -->
-
-						<img src="https://media.licdn.com/dms/image/v2/C4E03AQFnwFlyvfpQAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1568157566390?e=1787184000&v=beta&t=LTdldWgTDcZzA4UGUhCce7h2f_qsh9t2jzjn5MeuULU" alt="Headshot of Andres." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
-
-						<h3>Andres Calle</h3>
-						<hr/>
-						<h4 class="webdesc"></h4>
-
-						<div class="socialLinks">
-							<a href="https://www.linkedin.com/in/acalle/" target="_blank">
-								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
-							</a>
-						<!-- 
-							<a href="https://github.com/cramirez3182" target="_blank">
-								<img src="img/github_logo.png" alt="GitHub icon"/>
-							</a> -->
-							<!--  tabbed out email icon
-							<a href="/contact.php">
-								<img src="img/email_icon.png" alt="Email icon"/>
-							</a> -->
-						</div>
-						
-					</div>
-
-				</div>
-
-				<!-- Third row of past researcher names -->
-				<div class="containerOuter">
 
 					<div class="container">
 
@@ -347,6 +294,39 @@
 
 					<div class="container">
 
+						<!-- LinkedIn Profile picture -->
+
+						<img src="https://media.licdn.com/dms/image/v2/D5635AQHeTOBMOzohwA/profile-framedphoto-shrink_800_800/B56Zwpvy_0KEAk-/0/1770226921701?e=1787094000&v=beta&t=AV3nz08-VMa2D-GgdGp0sSvrWL3x6VkVxTTOD6VkcK4" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Tanya."/>
+
+						<h3>Tanya Mohanani</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
+
+						<div class="socialLinks">
+							<a href="https://www.linkedin.com/in/tanya-mohanani/" target="_blank">
+								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
+							</a>
+
+							<!-- <a href="https://github.com/xingchen33" target="_blank">
+								<img src="img/github_logo.png" alt="GitHub icon"/>
+							</a> -->
+						</div>						
+					</div>
+				</div>
+
+				<!-- Third row of past researcher names -->
+				<div class="containerOuter">
+
+					<div class="container">
+
+						<img src="https://media.licdn.com/dms/image/v2/D4E12AQEud3Ll5MI7cQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1660833954461?e=1788393600&v=beta&t=XYxQvoNPcXUCQmQwPjmlGYrrpQHOfqOX4g5OML9PW0I" alt="Headshot of Emmet." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+
+						<h3>Roberto Hincapie</h3>
+						<hr/>
+						<h4 class="webdesc"></h4>
+					</div>
+
+					<div class="container">
 
 						<!-- LinkedIn Profile picture -->
 
@@ -365,33 +345,32 @@
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a> -->
 						</div>
-						
 					</div>
 
 					<div class="container">
 
-						<!-- LinkedIn No profile picture icon -->
+						<!-- LinkedIn Profile picture -->
 
-						<img src="https://media.licdn.com/dms/image/v2/D4E12AQEud3Ll5MI7cQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1660833954461?e=1788393600&v=beta&t=XYxQvoNPcXUCQmQwPjmlGYrrpQHOfqOX4g5OML9PW0I" alt="Headshot of Jazmin." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+						<img src="https://media.licdn.com/dms/image/v2/C4E03AQFnwFlyvfpQAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1568157566390?e=1787184000&v=beta&t=LTdldWgTDcZzA4UGUhCce7h2f_qsh9t2jzjn5MeuULU" alt="Headshot of Andres." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
-						<h3>Jazmin Sanchez</h3>
+						<h3>Andres Calle</h3>
 						<hr/>
 						<h4 class="webdesc"></h4>
 
 						<div class="socialLinks">
-							<!-- <a href="">
+							<a href="https://www.linkedin.com/in/acalle/" target="_blank">
 								<img src="img/linkedin_logo.png" alt="LinkedIn icon"/>
 							</a>
-
-							<a href="">
+							<!-- 
+							<a href="https://github.com/cramirez3182" target="_blank">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a> -->
+							<!--  tabbed out email icon
+							<a href="/contact.php">
+								<img src="img/email_icon.png" alt="Email icon"/>
+							</a> -->
 						</div>
-
-						
 					</div>
-
-
 			</section>
 
 		</main>
