@@ -25,13 +25,14 @@
             </div>
 
             <div class="pipeline-page">
-
                 <div class="pipeline-step">
-                    <div class="step-number">1</div>
+                    <div class="step-heading">
+                        <div class="step-number">1</div>
+                        <h2>Collect Data</h2>
+                    </div>
 
                     <div class="step-content">
                         <div class="step-text">
-                            <h2>Collect Data</h2>
                             <p>
                                 <strong>Creates a pipeline</strong> to collect posts and data from Bluesky and Mastadon. These posts are what will be classified and determined whether or not to be misinformation.
                             </p>
@@ -48,11 +49,12 @@
                 </div>
 
                 <div class="pipeline-step">
-                    <div class="step-number">2</div>
-
+                    <div class="step-heading">
+                        <div class="step-number">2</div>
+                        <h2>Data Cleaning</h2>
+                    </div>
                     <div class="step-content">
                         <div class="step-text">
-                            <h2>Data Cleaning</h2>
                             <p>
                                 <strong>The post data </strong> from the social platform posts are gathered, <strong>segmented into smaller chunks of text,</strong> and unnecessary information is removed. This prepares the data for analysis in the next step.
                             </p>
@@ -65,11 +67,12 @@
                 </div>
 
                 <div class="pipeline-step">
-                    <div class="step-number">3</div>
-
+                    <div class="step-heading">
+                        <div class="step-number">3</div>
+                        <h2>Data Processing</h2>
+                    </div>
                     <div class="step-content">
                         <div class="step-text">
-                            <h2>Data Processing</h2>
                             <p>
                                 The <strong>cleansed data is then analyzed</strong> by the RoBERTa model to determine whether the post at hand is either stating an opinion or is trying to make a factual claim. 
                             </p>
@@ -86,11 +89,12 @@
                 </div>
 
                 <div class="pipeline-step">
-                    <div class="step-number">4</div>
-
+                    <div class="step-heading">
+                        <div class="step-number">4</div>
+                        <h2>Analysis</h2>
+                    </div>
                     <div class="step-content">
                         <div class="step-text">
-                            <h2>Analysis</h2>
                             <p>
                                 <strong>Based on six datasets</strong> of already classified post data in multiple languages on topics ranging from celebrity gossip and political news to COVID-19 news and more, the BERT model <strong>determines whether a post is true or false.</strong> <strong>True in this context is understood to be highly likely to be true, and false is very unlikely to be true</strong>.
                             </p>
@@ -108,11 +112,12 @@
                 </div>
 
                 <div class="pipeline-step">
-                    <div class="step-number">5</div>
-
+                    <div class="step-heading">
+                        <div class="step-number">5</div>
+                        <h2>Results</h2>
+                    </div>
                     <div class="step-content">
                         <div class="step-text">
-                            <h2>Results</h2>
                             <p>
                                 Once a post has been analyzed, <strong>a percentage validity score</strong> is assigned based on the chance that it is a piece of truthful information.
                             </p>

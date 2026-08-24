@@ -209,7 +209,7 @@
 					<div class="container">
 						<!-- LinkedIn Profile picture -->
 
-						<img src="https://media.licdn.com/dms/image/v2/D4D03AQEGX8mra-n_5Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695253270523?e=1787184000&v=beta&t=3mfn-rHI-THQ5MTMjZ8yJdDZSxyt1Nf7_lv6ptBv6is" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Kaylani."/>
+						<img src="https://media.licdn.com/dms/image/v2/D4D03AQEGX8mra-n_5Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695253270523?e=1788998400&v=beta&t=HiA-SX8tOGcMUUal5ZtsZeglu2NHKcXg7q1imGhPNg0" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Kaylani."/>
 
 						<h3>Kalyani Shinde</h3>
 						<hr/>
@@ -270,12 +270,15 @@
 							<a href="">
 								<img src="img/github_logo.png" alt="GitHub icon"/>
 							</a> -->
+
+							<!-- jazmins linkedin: https://www.linkedin.com/in/jazmin-sanchez1/ -->
+
 						</div>	
 					</div>
 
 					<div class="container">
 
-						<img src="https://media.licdn.com/dms/image/v2/D5603AQElgPZ5tlnijg/profile-displayphoto-crop_800_800/B56Zg9dRU1HMAM-/0/1753377740409?e=1787184000&v=beta&t=FmqjEUiJjrU3cshthbrS7AGiR_p2zt5xNFauduLROBo" alt="Headshot of Chirag." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+						<img src="https://media.licdn.com/dms/image/v2/D5603AQElgPZ5tlnijg/profile-displayphoto-crop_800_800/B56Zg9dRU1HMAM-/0/1753377740409?e=1788998400&v=beta&t=beWku02BjNm3UNbhKPknHbUpF6-NDGKYUpm8ZFgrUCo" alt="Headshot of Chirag." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
 						<h3>Chirag Radhakrishna</h3>
 						<hr/>
@@ -296,7 +299,7 @@
 
 						<!-- LinkedIn Profile picture -->
 
-						<img src="https://media.licdn.com/dms/image/v2/D5635AQHeTOBMOzohwA/profile-framedphoto-shrink_800_800/B56Zwpvy_0KEAk-/0/1770226921701?e=1787094000&v=beta&t=AV3nz08-VMa2D-GgdGp0sSvrWL3x6VkVxTTOD6VkcK4" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Tanya."/>
+						<img src="https://media.licdn.com/dms/image/v2/D5635AQHeTOBMOzohwA/profile-framedphoto-shrink_800_800/B56Zwpvy_0KEAk-/0/1770226921701?e=1788220800&v=beta&t=6pFW-OmCkCJjtM4gdlXlWxOvllfOeBkQBOz9rvsYzFM" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;", alt="Headshot of Tanya."/>
 
 						<h3>Tanya Mohanani</h3>
 						<hr/>
@@ -323,6 +326,8 @@
 
 						<h3>Roberto Hincapie</h3>
 						<hr/>
+
+						<!-- roberto's linkedin: https://www.linkedin.com/in/roberto-hincapie/ -->
 						<h4 class="webdesc"></h4>
 					</div>
 
@@ -330,7 +335,7 @@
 
 						<!-- LinkedIn Profile picture -->
 
-						<img src="https://media.licdn.com/dms/image/v2/D5603AQEh3u7B2qCUkA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1677740339285?e=1787184000&v=beta&t=dw8VpTioqr42yq8ZbIhVRGQmB6awtDXNntCGP0Lb6ko" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+						<img src="https://media.licdn.com/dms/image/v2/D5603AQEh3u7B2qCUkA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1677740339285?e=1788998400&v=beta&t=aRzKAi_p1w-MT32pRPnRf-9eExmAODY9DlyB77yhNmM" style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
 						<h3>Juan Zuluaga</h3>
 						<hr/>
@@ -351,7 +356,7 @@
 
 						<!-- LinkedIn Profile picture -->
 
-						<img src="https://media.licdn.com/dms/image/v2/C4E03AQFnwFlyvfpQAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1568157566390?e=1787184000&v=beta&t=LTdldWgTDcZzA4UGUhCce7h2f_qsh9t2jzjn5MeuULU" alt="Headshot of Andres." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+						<img src="https://media.licdn.com/dms/image/v2/C4E03AQFnwFlyvfpQAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1568157566390?e=1788998400&v=beta&t=zr1z8X46tKk9w98cYSe8OfZbLHJ4RPTf6Ml86AWjAhY" alt="Headshot of Andres." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
 						<h3>Andres Calle</h3>
 						<hr/>

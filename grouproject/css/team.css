@@ -1,21 +1,28 @@
+
 #teamCover {
-	background-image: linear-gradient(to bottom, orange, #A32035);
-	padding-left: 8rem;
-	padding-right: 8rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	margin-bottom: 0;
+    background-image: url("../img/team_banner.png");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
 }
 
 #teamCover h1 {
-	color: white;
+	color: #707070;
 	margin-bottom: 1rem;
 }
 
 #teamCover p {
-	color: white;
+	color: #707070;
 	max-width: 50rem;
 }
+
+
 
 #faculty {
 	background-color: white;
