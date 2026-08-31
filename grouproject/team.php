@@ -135,7 +135,7 @@
 
 						<!-- LinkedIn Profile picture -->
 
-						<img src="https://media.licdn.com/dms/image/v2/D4E03AQEYDjOPEf5Jgg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707589508310?e=1788393600&v=beta&t=mjwQ6U9ZJvsoj4ix2VKS3ywXJLvltHOSrZtVXr9jYXg" alt="Headshot of Cuitlahuac." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
+						<img src="https://media.licdn.com/dms/image/v2/D5603AQHCiXuaNgR6tA/profile-displayphoto-crop_800_800/B56aBGoP52IwAI-/0/1787891353738?e=1789603200&v=beta&t=4mu6mkRujWkxccqLH5hJj-hPewQj-eaWgv7DB2w3qzI" alt="Headshot of Cuitlahuac." style="width: 200px; height: 200px; border-radius: 12px; margin: 15px;"/>
 
 						<h3>Cuitlahuac Ramirez</h3>
 						<hr/>
