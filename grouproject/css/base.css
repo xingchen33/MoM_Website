@@ -134,13 +134,13 @@ p,li{
 footer{
     z-index:10;
     align-items: center;
-    background-color: var(--scu-red);
+    background-color: #758592;
     display:flex;
     justify-content:center;
     color:white;
     padding: 2rem 4rem;
-    padding-top:2rem;
-    padding-bottom:2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
     /* tried some text styling but decided to ultimately not include it */
     /*filter: drop-shadow(8px 4px 4px rgba(0, 0, 0, 0.3));*/
 }
@@ -156,7 +156,7 @@ footer img {
 }
 
 footer .epicLogo{
-    width: 100px;
+    width: 85px;
     height: auto;
     /* makes logo move further right from the mom logo */
     margin-left: 50px;

@@ -6,7 +6,12 @@
 
 #cover{
     display:flex;
-    background-image:linear-gradient(to bottom,orange, #A32035);
+    background-image:linear-gradient(
+        to bottom,
+        #FFFFFF 0%,
+        #FFF7E8 50%,
+        #CEDDE9 100%
+    );
     padding-left:8rem;
     padding-right:8rem; 
     padding-top:2rem;
@@ -20,11 +25,16 @@
 } 
 
 #cover .left p{
-    color:white;
+    color:black;
+}
+
+
+#cover p{
+    font-style: italic;
 }
 
 h1{
-    color:white;
+    color:black;
 }
 
 #why{
@@ -107,22 +117,65 @@ h1{
     height:fit-content;
 }
 
+/*----------------*/
 
-#what{
-    background-color:#A32035;
-     /* padding-left:10rem;
-    padding-right:8rem;
-    margin-top:0rem;
-    padding-top:2rem;
-    padding-bottom:2rem; */
+#what {
+    background-color: #A32035;
 }
 
-#what h2{
-    color:white;
-
+#what h2 {
+    color: white;
 }
 
+#what .containerOuter {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
 
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+}
+
+#what .container {
+    background-color: white;
+
+    width: 30%;
+    padding: 2rem;
+
+    border-radius: 10px;
+
+    text-align: center;
+    list-style-type: none;
+
+    /* IMPORTANT */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#what .container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.whatIcon {
+    width: auto;
+    max-height: 10rem;
+}
+
+.whatIcon2 {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+}
+
+#what .container p {
+    color: var(--scu-red);
+}
+
+/*----------------------*/
 /* .containerOuter{
     display:flex;
     gap:4rem;
@@ -147,7 +200,7 @@ h1{
 .container p{
     color:var(--scu-red);
 }
-
+/*
 .whatIcon{
     height:10rem;
 }
@@ -155,24 +208,100 @@ h1{
 .whatIcon2{
     width:20rem;
     height:7rem;
-}
+}*/
 
 #pipeline{
     color:white;
 }
 
-#you{
 
-    padding-left:8rem;
-    padding-right:8rem;
-    margin-top:0rem;
-    padding-bottom:2rem;
 
+
+/*-----------------------*/
+
+#you {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
-#you .content{
-    display:flex;
+#you h2 {
+    justify-content: center;
+    color: #666;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
 }
+
+.you-options {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.you-card {
+    width: 220px;
+    text-align: center;
+}
+
+.icon-circle {
+    width: 150px;
+    height: 150px;
+    background-color: #F7A51A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem auto;
+}
+
+.icon-circle img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.you-card a {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #A32035;
+    text-decoration: none;
+    margin-bottom: 0.4rem;
+}
+
+.you-card a:hover {
+    text-decoration: underline;
+}
+
+.you-card p {
+    color: #777;
+    font-size: 0.95rem;
+    margin: 0;
+}
+/*---------------------*/
+
+.icon-circle {
+    width: 170px;
+    height: 170px;
+    background-color: #F7A51A;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 1rem auto;
+}
+
+.icon-circle img {
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+}
+
+/*--------------------*/
+
 
 .line{
     display:flex;
@@ -220,4 +349,45 @@ h1{
 
 #game p{
     color:white;
+}
+
+.bottom-banner {
+    width: 100%;
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom-banner img {
+    width: 140%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: left center;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.banner-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.banner-text a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.banner-text p {
+    font-family: 'Inter', sans-serif;
 }
